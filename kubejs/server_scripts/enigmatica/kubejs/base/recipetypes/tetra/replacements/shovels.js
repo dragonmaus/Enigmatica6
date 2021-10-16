@@ -41,47 +41,9 @@ onEvent('server.datapack.low_priority', (event) => {
                 stick: 'treated_wood'
             },
             {
-                item: 'naturesaura:infused_iron_shovel',
-                material: 'infused_iron',
-                stick: 'treated_wood',
-                improvements: {
-                    'double/head_left:naturesaura_aura_mending_innate': 1,
-                    'double/head_right:naturesaura_aura_mending_innate': 1
-                }
-            },
-            {
-                item: 'naturesaura:sky_shovel',
-                material: 'sky',
-                stick: 'treated_wood',
-                improvements: {
-                    'double/head_left:naturesaura_aura_mending_innate': 1,
-                    'double/head_right:naturesaura_aura_mending_innate': 1
-                }
-            },
-            {
-                item: 'botania:manasteel_shovel',
-                material: 'manasteel',
-                stick: 'treated_wood'
-            },
-            {
-                item: 'botania:elementium_shovel',
-                material: 'elementium',
-                stick: 'jacaranda'
-            },
-            {
-                item: 'aiotbotania:terra_shovel',
-                material: 'terrasteel',
-                stick: 'terrasteel'
-            },
-            {
                 item: 'aquaculture:neptunium_shovel',
                 material: 'neptunium',
                 stick: 'neptunium'
-            },
-            {
-                item: 'aiotbotania:alfsteel_shovel',
-                material: 'alfsteel',
-                stick: 'alfsteel'
             }
         ]
     };

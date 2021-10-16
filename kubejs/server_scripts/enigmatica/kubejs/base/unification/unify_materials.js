@@ -18,20 +18,11 @@ onEvent('recipes', (event) => {
         let mek_clump = getPreferredItemInTag(Ingredient.of(`#mekanism:clumps/${material}`)).id;
         let mek_dirty_dust = getPreferredItemInTag(Ingredient.of(`#mekanism:dirty_dusts/${material}`)).id;
 
-        let fragment = getPreferredItemInTag(Ingredient.of(`#bloodmagic:fragments/${material}`)).id;
-        let gravel = getPreferredItemInTag(Ingredient.of(`#bloodmagic:gravels/${material}`)).id;
-
         let gear = getPreferredItemInTag(Ingredient.of(`#forge:gears/${material}`)).id;
         let rod = getPreferredItemInTag(Ingredient.of(`#forge:rods/${material}`)).id;
         let plate = getPreferredItemInTag(Ingredient.of(`#forge:plates/${material}`)).id;
 
-        astralsorcery_ore_processing_infuser(event, material, ore, ingot, gem, shard);
-
         betterend_alloys(event, material, ore, ingot);
-
-        bloodmagic_metal_ore_processing(event, material, ore, fragment, gravel, dust, ingot);
-        bloodmagic_gem_ore_processing(event, material, ore, gem, shard, dust);
-        bloodmagic_ingot_gem_crushing(event, material, ingot, dust, gem);
 
         create_metal_ore_processing(event, material, ore, crushed_ore, ingot, nugget);
         create_gem_ore_processing(event, material, ore, gem, dust, shard);
@@ -66,10 +57,6 @@ onEvent('recipes', (event) => {
         minecraft_gem_ore_smelting(event, material, ore, gem);
         minecraft_dust_smelting(event, material, dust, ingot);
 
-        occultism_gem_ore_crushing(event, material, ore, dust, gem, shard);
-        occultism_metal_ore_crushing(event, material, ore, dust, ingot);
-        occultism_ingot_gem_crushing(event, material, ingot, dust, gem);
-
         pedestals_gem_ore_crushing(event, material, ore, dust, shard, gem);
         pedestals_metal_ore_crushing(event, material, ore, ingot, dust);
         pedestals_ingot_gem_crushing(event, material, ingot, dust, gem);
@@ -86,63 +73,6 @@ onEvent('recipes', (event) => {
         tconstruct_gem_casting(event, material, block, gem, gear, rod, plate);
     });
 
-    function astralsorcery_ore_processing_infuser(event, material, ore, ingot, gem, shard) {
-        if (ore == air) {
-            return;
-        }
-
-        blacklistedMaterials = ['redstone', 'lapis', 'emerald', 'diamond', 'iron'];
-        for (var i = 0; i < blacklistedMaterials.length; i++) {
-            if (blacklistedMaterials[i] == material) {
-                return;
-            }
-        }
-
-        var input = `forge:ores/${material}`,
-            output,
-            count;
-        if (shard != air) {
-            output = shard;
-            count = 3;
-        } else if (gem != air) {
-            output = gem;
-            count = 5;
-        } else if (ingot != air) {
-            output = ingot;
-            count = 3;
-        } else {
-            return;
-        }
-
-        switch (material) {
-            case 'dimensional':
-                count = 9;
-                break;
-            case 'fluorite':
-                count = 7;
-                break;
-            default:
-                break;
-        }
-
-        event.custom({
-            type: 'astralsorcery:infuser',
-            fluidInput: 'astralsorcery:liquid_starlight',
-            input: {
-                tag: input
-            },
-            output: {
-                item: output,
-                count: count
-            },
-            consumptionChance: 0.1,
-            duration: 100,
-            consumeMultipleFluids: false,
-            acceptChaliceInput: true,
-            copyNBTToOutputs: false
-        });
-    }
-
     function betterend_alloys(event, material, ore, ingot) {
         if (ore == air || ingot == air) {
             return;
@@ -155,113 +85,6 @@ onEvent('recipes', (event) => {
             experience: 2,
             smelttime: 300
         });
-    }
-
-    function bloodmagic_metal_ore_processing(event, material, ore, fragment, gravel, dust, ingot) {
-        if (ore == air || ingot == air || fragment == air) {
-            return;
-        }
-
-        var secondaryOutput, materialProperties;
-
-        try {
-            materialProperties = oreProcessingSecondaries[material];
-        } catch (err) {
-            return;
-        }
-
-        try {
-            secondaryOutput = getPreferredItemInTag(
-                Ingredient.of(`#bloodmagic:fragments/${materialProperties.secondary}`)
-            ).id;
-        } catch (err) {
-            secondaryOutput = fragment;
-        }
-
-        // Ore to Fragment in ARC
-        event.recipes.bloodmagic
-            .arc(Item.of(fragment, 3), `#forge:ores/${material}`, '#bloodmagic:arc/explosive', [
-                Item.of(fragment, 2).chance(0.25),
-                Item.of(secondaryOutput, 2).chance(0.25)
-            ])
-            .consumeIngredient(false)
-            .id(`bloodmagic:arc/fragments${material}`);
-
-        // Fragment to Gravel in ARC
-        event.recipes.bloodmagic
-            .arc(gravel, `#bloodmagic:fragments/${material}`, '#bloodmagic:arc/resonator', [
-                Item.of('bloodmagic:corrupted_tinydust', 1).chance(0.05),
-                Item.of('bloodmagic:corrupted_tinydust', 1).chance(0.01)
-            ])
-            .consumeIngredient(false)
-            .id(`bloodmagic:arc/gravels${material}`);
-
-        // Gravel to Dust in ARC
-        event.recipes.bloodmagic
-            .arc(dust, `#bloodmagic:gravels/${material}`, '#bloodmagic:arc/cuttingfluid', [])
-            .consumeIngredient(false)
-            .id(`bloodmagic:arc/dustsfrom_gravel_${material}`);
-
-        // Ore to Dust in Alchemy
-        event.recipes.bloodmagic
-            .alchemytable(Item.of(dust, 3), ['#bloodmagic:arc/cuttingfluid', `#forge:ores/${material}`])
-            .syphon(400)
-            .ticks(200)
-            .upgradeLevel(1)
-            .id(`bloodmagic:alchemytable/sand_${material}`);
-    }
-    function bloodmagic_gem_ore_processing(event, material, ore, gem, shard, dust) {
-        if (ore == air) {
-            return;
-        }
-
-        try {
-            var materialProperties = gemProcessingProperties[material],
-                count = materialProperties.bloodmagic.count,
-                inputs = ['#bloodmagic:arc/cuttingfluid', `#forge:ores/${material}`];
-        } catch (err) {
-            return;
-        }
-
-        switch (materialProperties.output) {
-            case 'dust':
-                output = dust;
-                break;
-            case 'gem':
-                output = gem;
-                break;
-            case 'shard':
-                output = shard;
-                break;
-            default:
-                return;
-        }
-
-        // Alchemy Table Processing
-        event.recipes.bloodmagic.alchemytable(Item.of(output, count), inputs).syphon(400).ticks(200).upgradeLevel(1);
-    }
-    function bloodmagic_ingot_gem_crushing(event, material, ingot, dust, gem) {
-        if (dust == air) {
-            return;
-        }
-
-        var input,
-            output = dust;
-        if (ingot != air) {
-            type = 'ingot';
-            input = `#forge:ingots/${material}`;
-        } else if (gem != air) {
-            input = `#forge:gems/${material}`;
-            type = 'gem';
-        } else {
-            return;
-        }
-
-        // Ingots and Gems to Dust in ARC
-        event.recipes.bloodmagic
-            .arc(output, input, '#bloodmagic:arc/explosive', [])
-            .consumeIngredient(false)
-            .id(`bloodmagic:arc/dustsfrom_${type}_${material}`);
     }
 
     function create_metal_ore_processing(event, material, ore, crushed_ore, ingot, nugget) {
@@ -855,95 +678,6 @@ onEvent('recipes', (event) => {
         event.blasting(output, input).xp(0.7);
     }
 
-    function occultism_gem_ore_crushing(event, material, ore, dust, gem, shard) {
-        if (ore == air) {
-            return;
-        }
-
-        try {
-            var materialProperties = gemProcessingProperties[material],
-                count = materialProperties.occultism.count,
-                input = `forge:ores/${material}`,
-                output;
-        } catch (err) {
-            return;
-        }
-
-        switch (materialProperties.output) {
-            case 'dust':
-                output = dust;
-                break;
-            case 'gem':
-                output = gem;
-                break;
-            case 'shard':
-                output = shard;
-                break;
-            default:
-                return;
-        }
-
-        event.custom({
-            type: 'occultism:crushing',
-            ingredient: { tag: input },
-            result: { item: output, count: count },
-            crushing_time: 100,
-            ignore_crushing_multiplier: false
-        });
-    }
-
-    function occultism_metal_ore_crushing(event, material, ore, dust, ingot) {
-        if (ore == air || ingot == air || dust == air) {
-            return;
-        }
-        var output,
-            input = `forge:ores/${material}`,
-            output = dust,
-            count = 2;
-
-        event
-            .custom({
-                type: 'occultism:crushing',
-                ingredient: { tag: input },
-                result: { item: output, count: count },
-                crushing_time: 100,
-                ignore_crushing_multiplier: false
-            })
-            .id(`occultism:crushing/${material}_dust`);
-    }
-
-    function occultism_ingot_gem_crushing(event, material, ingot, dust, gem) {
-        if (dust == air) {
-            return;
-        }
-
-        blacklistedMaterials = ['silver'];
-
-        for (var i = 0; i < blacklistedMaterials.length; i++) {
-            if (blacklistedMaterials[i] == material) {
-                return;
-            }
-        }
-
-        var input,
-            output = dust;
-        if (ingot != air) {
-            input = `forge:ingots/${material}`;
-        } else if (gem != air) {
-            input = `forge:gems/${material}`;
-        } else {
-            return;
-        }
-
-        event.custom({
-            type: 'occultism:crushing',
-            ingredient: { tag: input },
-            result: { item: output, count: 1 },
-            crushing_time: 100,
-            ignore_crushing_multiplier: true
-        });
-    }
-
     function pedestals_gem_ore_crushing(event, material, ore, dust, shard, gem) {
         if (ore == air) {
             return;
@@ -988,15 +722,6 @@ onEvent('recipes', (event) => {
             input = `forge:ores/${material}`,
             output = dust,
             count = 2;
-
-        event
-            .custom({
-                type: 'occultism:crushing',
-                ingredient: { tag: input },
-                result: { item: output, count: count },
-                crushing_time: 100
-            })
-            .id(`occultism:crushing/${material}_dust`);
 
         event
             .custom({

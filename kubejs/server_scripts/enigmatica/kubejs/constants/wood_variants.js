@@ -55,10 +55,6 @@ var woodVariantsToConstruct = [
     'betterendforge:umbrella_tree',
     'betterendforge:jellyshroom',
     'betterendforge:lucernia',
-    'ars_nouveau:red_archwood',
-    'ars_nouveau:green_archwood',
-    'ars_nouveau:purple_archwood',
-    'ars_nouveau:blue_archwood',
     'integrateddynamics:menril',
     'integrateddynamics:menril_filled',
     'atmospheric:rosewood',
@@ -166,19 +162,6 @@ woodVariantsToConstruct.forEach((variant) => {
             logBlockStripped = 'minecraft:stripped_oak_log';
             woodBlockStripped = 'minecraft:stripped_oak_wood';
             plankBlock = 'minecraft:oak_planks';
-            break;
-        case 'red_archwood':
-            plankBlock = 'ars_nouveau:archwood_planks';
-            slabBlock = 'ars_nouveau:archwood_slab';
-            break;
-        case 'green_archwood':
-            plankBlock = 'ars_nouveau:archwood_planks';
-            break;
-        case 'purple_archwood':
-            plankBlock = 'ars_nouveau:archwood_planks';
-            break;
-        case 'blue_archwood':
-            plankBlock = 'ars_nouveau:archwood_planks';
             break;
         case 'crustose':
             logBlockStripped = 'atmospheric:stripped_aspen_log';

@@ -227,6 +227,10 @@
 									"holo/frame_material": "core/ancient"
 								}
 							}
+							powah: {
+								id: "powah:book"
+								Count: 1.0d
+							}
 							resourcefulbees: {
 								id: "patchouli:guide_book"
 								Count: 1.0d
@@ -238,13 +242,16 @@
 								id: "theoneprobe:probenote"
 								Count: 1.0d
 							}
-							astralsorcery: {
-								id: "astralsorcery:tome"
-								Count: 1.0d
-							}
 							ftbquests: {
 								id: "ftbquests:book"
 								Count: 1.0d
+							}
+							pneumaticcraft: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "pneumaticcraft:book"
+								}
 							}
 							alexsmobs: {
 								id: "alexsmobs:animal_dictionary"
@@ -254,14 +261,37 @@
 								id: "immersiveengineering:manual"
 								Count: 1.0d
 							}
-							eidolon: {
-								id: "eidolon:codex"
+							pedestals: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "pedestals:manual"
+								}
+							}
+							transport: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "transport:guide"
+								}
+							}
+							engineersdecor: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "engineersdecor:engineersdecor_manual"
+								}
+							}
+							solcarrot: {
+								id: "solcarrot:food_book"
 								Count: 1.0d
 							}
-							botania: {
-								id: "botania:lexicon"
+							modularrouters: {
+								id: "patchouli:guide_book"
 								Count: 1.0d
-								tag: { }
+								tag: {
+									"patchouli:book": "modularrouters:book"
+								}
 							}
 							thermal: {
 								id: "patchouli:guide_book"
@@ -285,77 +315,12 @@
 								id: "integrateddynamics:on_the_dynamics_of_integration"
 								Count: 1.0d
 							}
-							cookingforblockheads: {
-								id: "cookingforblockheads:crafting_book"
-								Count: 1.0d
-							}
-							powah: {
-								id: "powah:book"
-								Count: 1.0d
-							}
-							pneumaticcraft: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "pneumaticcraft:book"
-								}
-							}
-							naturesaura: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "naturesaura:book"
-								}
-							}
-							pedestals: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "pedestals:manual"
-								}
-							}
-							transport: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "transport:guide"
-								}
-							}
-							engineersdecor: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "engineersdecor:engineersdecor_manual"
-								}
-							}
-							occultism: {
-								id: "occultism:dictionary_of_spirits"
-								Count: 1.0d
-							}
-							solcarrot: {
-								id: "solcarrot:food_book"
-								Count: 1.0d
-							}
-							modularrouters: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "modularrouters:book"
-								}
-							}
-							ars_nouveau: {
-								id: "ars_nouveau:worn_notebook"
-								Count: 1.0d
-							}
-							bloodmagic: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "bloodmagic:guide"
-								}
-							}
 							betterendforge: {
 								id: "betterendforge:guidebook"
+								Count: 1.0d
+							}
+							cookingforblockheads: {
+								id: "cookingforblockheads:crafting_book"
 								Count: 1.0d
 							}
 						}
@@ -383,6 +348,10 @@
 									"holo/frame_material": "core/ancient"
 								}
 							}
+							powah: {
+								id: "powah:book"
+								Count: 1.0d
+							}
 							resourcefulbees: {
 								id: "patchouli:guide_book"
 								Count: 1.0d
@@ -394,13 +363,16 @@
 								id: "theoneprobe:probenote"
 								Count: 1.0d
 							}
-							astralsorcery: {
-								id: "astralsorcery:tome"
-								Count: 1.0d
-							}
 							ftbquests: {
 								id: "ftbquests:book"
 								Count: 1.0d
+							}
+							pneumaticcraft: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "pneumaticcraft:book"
+								}
 							}
 							alexsmobs: {
 								id: "alexsmobs:animal_dictionary"
@@ -410,14 +382,37 @@
 								id: "immersiveengineering:manual"
 								Count: 1.0d
 							}
-							eidolon: {
-								id: "eidolon:codex"
+							pedestals: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "pedestals:manual"
+								}
+							}
+							transport: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "transport:guide"
+								}
+							}
+							engineersdecor: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "engineersdecor:engineersdecor_manual"
+								}
+							}
+							solcarrot: {
+								id: "solcarrot:food_book"
 								Count: 1.0d
 							}
-							botania: {
-								id: "botania:lexicon"
+							modularrouters: {
+								id: "patchouli:guide_book"
 								Count: 1.0d
-								tag: { }
+								tag: {
+									"patchouli:book": "modularrouters:book"
+								}
 							}
 							sushigocrafting: {
 								id: "patchouli:guide_book"
@@ -448,77 +443,12 @@
 								id: "integrateddynamics:on_the_dynamics_of_integration"
 								Count: 1.0d
 							}
-							cookingforblockheads: {
-								id: "cookingforblockheads:crafting_book"
-								Count: 1.0d
-							}
-							powah: {
-								id: "powah:book"
-								Count: 1.0d
-							}
-							pneumaticcraft: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "pneumaticcraft:book"
-								}
-							}
-							naturesaura: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "naturesaura:book"
-								}
-							}
-							pedestals: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "pedestals:manual"
-								}
-							}
-							transport: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "transport:guide"
-								}
-							}
-							engineersdecor: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "engineersdecor:engineersdecor_manual"
-								}
-							}
-							occultism: {
-								id: "occultism:dictionary_of_spirits"
-								Count: 1.0d
-							}
-							solcarrot: {
-								id: "solcarrot:food_book"
-								Count: 1.0d
-							}
-							modularrouters: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "modularrouters:book"
-								}
-							}
-							ars_nouveau: {
-								id: "ars_nouveau:worn_notebook"
-								Count: 1.0d
-							}
-							bloodmagic: {
-								id: "patchouli:guide_book"
-								Count: 1.0d
-								tag: {
-									"patchouli:book": "bloodmagic:guide"
-								}
-							}
 							betterendforge: {
 								id: "betterendforge:guidebook"
+								Count: 1.0d
+							}
+							cookingforblockheads: {
+								id: "cookingforblockheads:crafting_book"
 								Count: 1.0d
 							}
 						}

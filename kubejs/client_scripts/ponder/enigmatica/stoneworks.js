@@ -210,7 +210,6 @@
             var randStone = [
               'minecraft:andesite',
               'byg:pink_sandstone',
-              'astralsorcery:marble_raw',
               'create:limestone'
             ]
 

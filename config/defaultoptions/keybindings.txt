@@ -42,7 +42,6 @@ key_key.findme.search:key.keyboard.y:NONE
 key_key.ftbultimine:key.keyboard.grave.accent:NONE
 key_key.ftbchunks.map:key.keyboard.m:NONE
 key_key.enchdesc.show:key.keyboard.left.shift:NONE
-key_bloodmagic.keybind.open_holding:key.keyboard.unknown:NONE
 key_key.itemzoom.toggle:key.keyboard.z:SHIFT
 key_key.itemzoom.hold:key.keyboard.unknown:NONE
 key_key.itemzoom.zoom.in:key.keyboard.unknown:NONE
@@ -76,7 +75,6 @@ key_key.refinedstorage.openWirelessCraftingMonitor:key.keyboard.unknown:NONE
 key_key.refinedstorage.openPortableGrid:key.keyboard.unknown:NONE
 key_key.industrialforegoing.backpack.desc:key.keyboard.unknown:NONE
 key_key.curios.open.desc:key.keyboard.unknown:NONE
-key_key.botania_corporea_request:key.keyboard.unknown:NONE
 key_key.invtweaks_sort_player.desc:key.keyboard.unknown:NONE
 key_key.invtweaks_sort_inventory.desc:key.keyboard.unknown:NONE
 key_key.invtweaks_sort_either.desc:key.mouse.middle:NONE
@@ -134,11 +132,6 @@ key_ping.key.alert:key.keyboard.1:CONTROL
 key_ping.key.mine:key.keyboard.4:CONTROL
 key_ping.key.look:key.keyboard.3:CONTROL
 key_ping.key.goto:key.keyboard.2:CONTROL
-key_key.astralsorcery.disable_perk_abilities:key.keyboard.unknown:NONE
-key_key.ars_nouveau.open_book:key.keyboard.c:SHIFT
-key_key.ars_nouveau.selection_hud:key.keyboard.v:NONE
-key_key.ars_nouveau.previous_slot:key.keyboard.z:NONE
-key_key.ars_nouveau.next_slot:key.keyboard.x:NONE
 key_key.ftbquests.quests:key.keyboard.q:SHIFT
 key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7:NONE
 key_key.moreoverlays.chunkbounds.desc:key.keyboard.f9:NONE
@@ -149,8 +142,6 @@ key_key.openManual:key.keyboard.unknown:NONE
 key_key.toastcontrol.clear:key.keyboard.j:NONE
 key_mininggadgets.text.open_gui:key.keyboard.g:SHIFT
 key_create.keyinfo.toolmenu:key.keyboard.left.alt:NONE
-key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown:NONE
-key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown:NONE
 key_quark.keybind.lock_rotation:key.keyboard.k:NONE
 key_quark.keybind.sort_player:key.keyboard.unknown:NONE
 key_quark.keybind.sort_container:key.keyboard.unknown:NONE
@@ -231,7 +222,6 @@ key_pneumaticcraft.armor.upgrade.jump_boost:key.keyboard.unknown:NONE
 key_pneumaticcraft.armor.upgrade.jet_boots:key.keyboard.unknown:NONE
 key_pneumaticcraft.armor.upgrade.jet_boots.module.builder_mode:key.keyboard.unknown:NONE
 key_pneumaticcraft.armor.upgrade.step_assist:key.keyboard.unknown:NONE
-key_key.occultism.backpack:key.keyboard.s:SHIFT
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b:NONE
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c:NONE
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT

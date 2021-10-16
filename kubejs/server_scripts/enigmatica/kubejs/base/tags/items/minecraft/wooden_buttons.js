@@ -29,7 +29,6 @@ onEvent('item.tags', (event) => {
             'byg:lament_button',
             'byg:ether_button',
             'byg:bulbis_button',
-            'byg:nightshade_button',
-            'ars_nouveau:archwood_button'
+            'byg:nightshade_button'
         ]);
 });

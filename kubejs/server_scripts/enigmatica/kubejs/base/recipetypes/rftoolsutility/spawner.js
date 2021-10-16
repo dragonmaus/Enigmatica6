@@ -408,20 +408,6 @@ onEvent('recipes', (event) => {
                 base: substrates.arid
             },
 
-            /// Ars Nouveau
-            {
-                entity: 'ars_nouveau:sylph',
-                size: sizes.small,
-                special: { tag: 'forge:logs/archwood' },
-                base: substrates.basic
-            },
-            {
-                entity: 'ars_nouveau:carbuncle',
-                size: sizes.small,
-                special: { tag: 'forge:nuggets/gold' },
-                base: substrates.basic
-            },
-
             /// UnderGarden
             {
                 entity: 'undergarden:dweller',
@@ -508,20 +494,6 @@ onEvent('recipes', (event) => {
                 size: sizes.medium,
                 special: { item: 'minecraft:rotten_flesh' },
                 base: substrates.arid
-            },
-
-            /// Eidolon
-            {
-                entity: 'eidolon:zombie_brute',
-                size: sizes.large,
-                special: { item: 'minecraft:rotten_flesh' },
-                base: substrates.basic
-            },
-            {
-                entity: 'eidolon:wraith',
-                size: sizes.medium,
-                special: { item: 'eidolon:tattered_cloth' },
-                base: substrates.basic
             },
 
             /// Better End Forge
@@ -840,27 +812,6 @@ onEvent('recipes', (event) => {
                 size: sizes.medium,
                 special: { item: 'minecraft:warped_fungus' },
                 base: substrates.hellish
-            },
-
-            /// Ars Nouveau
-
-            {
-                entity: 'ars_nouveau:wilden_guardian',
-                size: sizes.large,
-                special: { item: 'ars_nouveau:wilden_spike' },
-                base: substrates.frozen
-            },
-            {
-                entity: 'ars_nouveau:wilden_stalker',
-                size: sizes.medium,
-                special: { item: 'ars_nouveau:wilden_wing' },
-                base: substrates.basic
-            },
-            {
-                entity: 'ars_nouveau:wilden_hunter',
-                size: sizes.medium,
-                special: { item: 'ars_nouveau:wilden_horn' },
-                base: substrates.basic
             },
 
             /// Atum

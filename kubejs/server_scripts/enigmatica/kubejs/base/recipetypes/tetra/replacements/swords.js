@@ -63,70 +63,11 @@ onEvent('server.datapack.low_priority', (event) => {
                 hilt: 'treated_wood'
             },
             {
-                item: 'naturesaura:infused_iron_sword',
-                blade: 'infused_iron',
-                guard: 'infused_iron',
-                pommel: 'infused_iron',
-                hilt: 'treated_wood'
-            },
-            {
-                item: 'naturesaura:sky_sword',
-                blade: 'sky',
-                guard: 'sky',
-                pommel: 'sky',
-                hilt: 'treated_wood',
-                improvements: {
-                    'sword/blade:naturesaura_aura_mending_innate': 1,
-                    'sword/pommel:naturesaura_aura_mending_innate': 1,
-                    'sword/guard:naturesaura_aura_mending_innate': 1
-                }
-            },
-            {
-                item: 'naturesaura:sky_sword',
-                blade: 'sky',
-                guard: 'sky',
-                pommel: 'sky',
-                hilt: 'treated_wood',
-                improvements: {
-                    'sword/blade:naturesaura_aura_mending_innate': 1,
-                    'sword/pommel:naturesaura_aura_mending_innate': 1,
-                    'sword/guard:naturesaura_aura_mending_innate': 1
-                }
-            },
-            {
-                item: 'botania:manasteel_sword',
-                blade: 'manasteel',
-                guard: 'manasteel',
-                pommel: 'manasteel',
-                hilt: 'treated_wood'
-            },
-            {
-                item: 'botania:elementium_sword',
-                blade: 'elementium',
-                guard: 'elementium',
-                pommel: 'elementium',
-                hilt: 'jacaranda'
-            },
-            {
-                item: 'botania:terra_sword',
-                blade: 'terrasteel',
-                guard: 'terrasteel',
-                pommel: 'terrasteel',
-                hilt: 'terrasteel'
-            },
-            {
                 item: 'aquaculture:neptunium_sword',
                 blade: 'neptunium',
                 guard: 'neptunium',
                 pommel: 'neptunium',
                 hilt: 'neptunium'
-            },
-            {
-                item: 'mythicbotany:alfsteel_sword',
-                blade: 'alfsteel',
-                guard: 'alfsteel',
-                pommel: 'alfsteel',
-                hilt: 'alfsteel'
             }
         ]
     };

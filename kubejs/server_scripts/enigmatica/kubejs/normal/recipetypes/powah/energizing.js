@@ -14,15 +14,6 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}energized_steel_block`
         },
         {
-            ingredients: [{ item: 'botania:blaze_block' }],
-            energy: '900000',
-            result: {
-                item: 'powah:blazing_crystal_block',
-                count: 1
-            },
-            id: `${id_prefix}blazing_crystal_block`
-        },
-        {
             ingredients: [{ tag: 'forge:storage_blocks/diamond' }],
             energy: '3000000',
             result: {

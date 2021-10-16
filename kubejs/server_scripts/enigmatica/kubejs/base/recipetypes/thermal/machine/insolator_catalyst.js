@@ -10,14 +10,6 @@ onEvent('recipes', (event) => {
                 useChance: 0.8
             },
             {
-                input: 'botania:fertilizer',
-                primaryMod: 1.7,
-                secondaryMod: 1.7,
-                energyMod: 0.9,
-                minChance: 0.5,
-                useChance: 0.5
-            },
-            {
                 input: 'farmingforblockheads:red_fertilizer',
                 primaryMod: 2.3,
                 secondaryMod: 2.3,

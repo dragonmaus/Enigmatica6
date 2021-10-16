@@ -126,24 +126,6 @@ onEvent('server.datapack.low_priority', (event) => {
                     textures: ['crude', 'default'],
                     material: { tag: 'forge:fiber_hemp', count: 2 },
                     requiredTools: { cut: 2 }
-                },
-                {
-                    key: 'mana_string',
-                    category: 'fibre',
-                    primary: '5',
-                    secondary: '4',
-                    tertiary: '2',
-                    durability: '250',
-                    integrityCost: '2',
-                    integrityGain: '5',
-                    magicCapacity: '120',
-                    toolLevel: '3',
-                    toolEfficiency: '6',
-                    tints: { glyph: 'bdfced', texture: 'b2ffec' },
-                    textures: ['crude', 'default'],
-                    material: { item: 'botania:mana_string' },
-                    improvements: { mana_repair: 2 },
-                    requiredTools: { cut: 2 }
                 }
             ]
         }

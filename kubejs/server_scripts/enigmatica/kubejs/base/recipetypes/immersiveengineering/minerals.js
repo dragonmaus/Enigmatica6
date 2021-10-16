@@ -124,32 +124,6 @@ onEvent('recipes', (event) => {
             },
             {
                 ores: [
-                    { chance: 0.2, output: { item: 'botania:metamorphic_swamp_cobblestone' } },
-                    { chance: 0.2, output: { item: 'botania:metamorphic_fungal_cobblestone' } },
-                    { chance: 0.2, output: { item: 'botania:metamorphic_plains_cobblestone' } },
-                    { chance: 0.2, output: { item: 'botania:metamorphic_forest_cobblestone' } },
-                    { chance: 0.2, output: { item: 'botania:metamorphic_taiga_cobblestone' } }
-                ],
-                dimensions: ['minecraft:overworld'],
-                weight: 10,
-                fail_chance: 0.05,
-                sample_background: 'minecraft:stone',
-                id: 'vivacious_metamorphic_rock'
-            },
-            {
-                ores: [
-                    { chance: 0.33, output: { item: 'botania:metamorphic_mesa_cobblestone' } },
-                    { chance: 0.33, output: { item: 'botania:metamorphic_mountain_cobblestone' } },
-                    { chance: 0.33, output: { item: 'botania:metamorphic_desert_cobblestone' } }
-                ],
-                dimensions: ['minecraft:overworld'],
-                weight: 10,
-                fail_chance: 0.05,
-                sample_background: 'minecraft:stone',
-                id: 'arid_metamorphic_rock'
-            },
-            {
-                ores: [
                     { chance: 0.1, output: { item: 'quark:red_crystal' } },
                     { chance: 0.1, output: { item: 'quark:orange_crystal' } },
                     { chance: 0.1, output: { item: 'quark:yellow_crystal' } },

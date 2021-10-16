@@ -1,11 +1,6 @@
 onEvent('recipes', (event) => {
     const recipes = [
         {
-            input: 'minecraft:rotten_flesh',
-            output: 'occultism:tallow',
-            xp: 0.5
-        },
-        {
             input: '#forge:ores/ender',
             output: Item.of('#forge:shards/ender'),
             xp: 0.5

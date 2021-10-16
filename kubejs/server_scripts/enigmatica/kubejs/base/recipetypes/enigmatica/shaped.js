@@ -251,14 +251,6 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}atum/linen_thread_from_cloth_scrap`
         },
         {
-            output: Item.of('eidolon:lead_ingot', 6),
-            pattern: ['AA', 'AA', 'AA'],
-            key: {
-                A: '#forge:ingots/lead'
-            },
-            id: `${id_prefix}eidolon/lead_ingot_conversion`
-        },
-        {
             output: Item.of('atum:marl', 4),
             pattern: ['AB', 'BA'],
             key: {
@@ -268,89 +260,6 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}atum/marl_from_clay`
         },
 
-        {
-            output: Item.of('bloodmagic:dungeon_polished', 4),
-            pattern: ['AA', 'AA'],
-            key: {
-                A: 'bloodmagic:dungeon_stone'
-            },
-            id: `${id_prefix}bloodmagic/dungeon_polished`
-        },
-        {
-            output: Item.of('bloodmagic:dungeon_brick1', 4),
-            pattern: ['AA', 'AA'],
-            key: {
-                A: 'bloodmagic:dungeon_polished'
-            },
-            id: `${id_prefix}bloodmagic/dungeon_brick1`
-        },
-        {
-            output: Item.of('bloodmagic:dungeon_polished_stairs', 4),
-            pattern: ['A  ', 'AA ', 'AAA'],
-            key: {
-                A: 'bloodmagic:dungeon_polished'
-            },
-            id: `${id_prefix}bloodmagic/dungeon_polished_stairs`
-        },
-        {
-            output: Item.of('bloodmagic:dungeon_brick_stairs', 4),
-            pattern: ['A  ', 'AA ', 'AAA'],
-            key: {
-                A: 'bloodmagic:dungeon_brick1'
-            },
-            id: `${id_prefix}bloodmagic/dungeon_brick_stairs`
-        },
-        {
-            output: Item.of('bloodmagic:dungeon_pillar_center', 2),
-            pattern: ['A', 'A'],
-            key: {
-                A: 'bloodmagic:dungeon_stone'
-            },
-            id: `${id_prefix}bloodmagic/dungeon_pillar_center`
-        },
-        {
-            output: Item.of('bloodmagic:dungeon_eye', 1),
-            pattern: [' B ', 'BAB', ' B '],
-            key: {
-                A: 'bloodmagic:dungeon_stone',
-                B: '#bloodmagic:crystals/demon'
-            },
-            id: `${id_prefix}bloodmagic/dungeon_eye`
-        },
-        {
-            output: Item.of('bloodmagic:dungeon_polished_wall', 6),
-            pattern: ['AAA', 'AAA'],
-            key: {
-                A: 'bloodmagic:dungeon_polished'
-            },
-            id: `${id_prefix}bloodmagic/dungeon_polished_wall`
-        },
-        {
-            output: Item.of('bloodmagic:dungeon_brick_wall', 6),
-            pattern: ['AAA', 'AAA'],
-            key: {
-                A: 'bloodmagic:dungeon_brick1'
-            },
-            id: `${id_prefix}bloodmagic/dungeon_brick_wall`
-        },
-        {
-            output: 'bloodmagic:dungeon_polished_gate',
-            pattern: ['BAB', 'BAB'],
-            key: {
-                A: 'bloodmagic:dungeon_polished',
-                B: 'minecraft:stick'
-            },
-            id: `${id_prefix}bloodmagic/dungeon_polished_gate`
-        },
-        {
-            output: 'bloodmagic:dungeon_brick_gate',
-            pattern: ['BAB', 'BAB'],
-            key: {
-                A: 'bloodmagic:dungeon_brick1',
-                B: 'minecraft:stick'
-            },
-            id: `${id_prefix}bloodmagic/dungeon_brick_gate`
-        },
         {
             output: Item.of('projectvibrantjourneys:bones', 8),
             pattern: ['AAA', 'A A', 'AAA'],
@@ -604,14 +513,10 @@ onEvent('recipes', (event) => {
                     blockcarpentry: { id: 'blockcarpentry:texture_wrench', Count: 1 },
                     powah: { id: 'powah:wrench', Count: 1 },
                     resourcefulbees: { id: 'resourcefulbees:scraper', Count: 1 },
-                    astralsorcery: { id: 'astralsorcery:wand', Count: 1 },
                     pneumaticcraft: { id: 'pneumaticcraft:pneumatic_wrench', Count: 1 },
                     immersiveengineering: { id: 'immersiveengineering:hammer', Count: 1 },
                     transport: { id: 'transport:rail_breaker', Count: 1 },
-                    botania: { id: 'botania:twig_wand', Count: 1, tag: { color1: 0, color2: 0 } },
-                    ars_nouveau: { id: 'ars_nouveau:dominion_wand', Count: 1 },
                     mekanism: { id: 'mekanism:configurator', Count: 1 },
-                    bloodmagic: { id: 'bloodmagic:ritualtinkerer', Count: 1 },
                     thermal: { id: 'thermal:wrench', Count: 1 },
                     rftoolsbase: { id: 'rftoolsbase:smartwrench', Count: 1 },
                     create: { id: 'create:wrench', Count: 1 },

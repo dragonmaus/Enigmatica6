@@ -34,15 +34,6 @@ onEvent('server.datapack.low_priority', (event) => {
                             level: 1
                         }
                     ]
-                },
-                {
-                    type: 'tconstruct:material',
-                    ingredient: {
-                        item: 'botania:livingrock'
-                    },
-                    value: 1,
-                    needed: 1,
-                    material: 'enigmatica:livingrock'
                 }
             ]
         },
@@ -79,24 +70,6 @@ onEvent('server.datapack.low_priority', (event) => {
                             level: 1
                         }
                     ]
-                },
-                {
-                    type: 'tconstruct:material',
-                    ingredient: {
-                        item: 'botania:livingwood_planks'
-                    },
-                    value: 1,
-                    needed: 1,
-                    material: 'enigmatica:livingwood'
-                },
-                {
-                    type: 'tconstruct:material',
-                    ingredient: {
-                        item: 'botania:livingwood'
-                    },
-                    value: 4,
-                    needed: 1,
-                    material: 'enigmatica:livingwood'
                 }
             ]
         },

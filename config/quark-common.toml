@@ -73,7 +73,7 @@
 		Chance = 0.005
 
 	[automation.pistons_move_tile_entities]
-		"Render Blacklist" = ["psi:programmer", "botania:starfield"]
+		"Render Blacklist" = ["psi:programmer"]
 		"Movement Blacklist" = ["minecraft:spawner", "integrateddynamics:cable", "randomthings:blockbreaker", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:trapped_chest", "quark:spruce_trapped_chest", "quark:birch_trapped_chest", "quark:jungle_trapped_chest", "quark:acacia_trapped_chest", "quark:dark_oak_trapped_chest"]
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
 		"Enable Chests Moving Together" = true

@@ -7,10 +7,6 @@ onEvent('recipes', (event) => {
         {
             output: 'quark:white_candle',
             inputs: ['#quark:candles', 'minecraft:white_dye'],
-        },
-        {   output: 'quark:white_candle',
-            inputs: 'eidolon:candle',
-
         }
     ];
 

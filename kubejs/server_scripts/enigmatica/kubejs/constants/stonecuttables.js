@@ -110,22 +110,6 @@ const stonecuttables = [
         onlyAsInput: ['minecraft:andesite']
     },
     {
-        name: 'arcane_stone',
-        stones: [
-            'ars_nouveau:arcane_stone',
-            'ars_nouveau:arcane_bricks',
-            'ars_nouveau:ab_smooth',
-            'ars_nouveau:ab_smooth_slab',
-            'ars_nouveau:ab_clover',
-            'ars_nouveau:ab_mosaic',
-            'ars_nouveau:ab_herring',
-            'ars_nouveau:ab_basket',
-            'ars_nouveau:ab_alternating'
-        ],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
         name: 'basalt',
         stones: [
             'minecraft:polished_basalt',
@@ -217,18 +201,6 @@ const stonecuttables = [
         ],
         onlyAsOutput: [],
         onlyAsInput: ['minecraft:blackstone']
-    },
-    {
-        name: 'blaze_quartz',
-        stones: ['botania:blaze_quartz', 'botania:blaze_quartz_pillar', 'botania:chiseled_blaze_quartz'],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
-        name: 'bloodstone',
-        stones: ['bloodmagic:largebloodstonebrick', 'bloodmagic:bloodstonebrick'],
-        onlyAsOutput: [],
-        onlyAsInput: []
     },
     {
         name: 'carved_pumpkin',
@@ -517,12 +489,6 @@ const stonecuttables = [
     {
         name: 'elder_prismarine',
         stones: ['quark:elder_prismarine', 'quark:elder_prismarine_bricks'],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
-        name: 'elf_quartz',
-        stones: ['botania:elf_quartz', 'botania:elf_quartz_pillar', 'botania:chiseled_elf_quartz'],
         onlyAsOutput: [],
         onlyAsInput: []
     },
@@ -863,12 +829,6 @@ const stonecuttables = [
         onlyAsInput: []
     },
     {
-        name: 'lavender_quartz',
-        stones: ['botania:lavender_quartz', 'botania:lavender_quartz_pillar', 'botania:chiseled_lavender_quartz'],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
         name: 'limestone',
         stones: [
             'create:limestone',
@@ -932,21 +892,8 @@ const stonecuttables = [
         onlyAsInput: []
     },
     {
-        name: 'mana_quartz',
-        stones: ['botania:mana_quartz', 'botania:mana_quartz_pillar', 'botania:chiseled_mana_quartz'],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
         name: 'marble',
         stones: [
-            'astralsorcery:marble_bricks',
-            'astralsorcery:marble_chiseled',
-            'astralsorcery:marble_engraved',
-            'astralsorcery:marble_raw',
-            'astralsorcery:marble_runed',
-            'astralsorcery:marble_arch',
-            'astralsorcery:marble_pillar',
             'quark:marble',
             'quark:marble_bricks',
             'quark:chiseled_marble_bricks',
@@ -987,86 +934,6 @@ const stonecuttables = [
             'chisel:marble/twisted',
             'chisel:marble/prism',
             'chisel:marble/cuts'
-        ],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
-        name: 'metamorphic_desert_stone',
-        stones: [
-            'botania:metamorphic_desert_stone',
-            'botania:metamorphic_desert_bricks',
-            'botania:chiseled_metamorphic_desert_bricks'
-        ],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
-        name: 'metamorphic_forest_stone',
-        stones: [
-            'botania:metamorphic_forest_stone',
-            'botania:metamorphic_forest_bricks',
-            'botania:chiseled_metamorphic_forest_bricks'
-        ],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
-        name: 'metamorphic_fungal_stone',
-        stones: [
-            'botania:metamorphic_fungal_stone',
-            'botania:metamorphic_fungal_bricks',
-            'botania:chiseled_metamorphic_fungal_bricks'
-        ],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
-        name: 'metamorphic_mesa_stone',
-        stones: [
-            'botania:metamorphic_mesa_stone',
-            'botania:metamorphic_mesa_bricks',
-            'botania:chiseled_metamorphic_mesa_bricks'
-        ],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
-        name: 'metamorphic_mountain_stone',
-        stones: [
-            'botania:metamorphic_mountain_stone',
-            'botania:metamorphic_mountain_bricks',
-            'botania:chiseled_metamorphic_mountain_bricks'
-        ],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
-        name: 'metamorphic_plains_stone',
-        stones: [
-            'botania:metamorphic_plains_stone',
-            'botania:metamorphic_plains_bricks',
-            'botania:chiseled_metamorphic_plains_bricks'
-        ],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
-        name: 'metamorphic_swamp_stone',
-        stones: [
-            'botania:metamorphic_swamp_stone',
-            'botania:metamorphic_swamp_bricks',
-            'botania:chiseled_metamorphic_swamp_bricks'
-        ],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
-        name: 'metamorphic_taiga_stone',
-        stones: [
-            'botania:metamorphic_taiga_stone',
-            'botania:metamorphic_taiga_bricks',
-            'botania:chiseled_metamorphic_taiga_bricks'
         ],
         onlyAsOutput: [],
         onlyAsInput: []
@@ -1319,12 +1186,6 @@ const stonecuttables = [
         onlyAsInput: []
     },
     {
-        name: 'red_quartz',
-        stones: ['botania:red_quartz', 'botania:red_quartz_pillar', 'botania:chiseled_red_quartz'],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
         name: 'red_rock',
         stones: [
             'byg:red_rock',
@@ -1529,12 +1390,6 @@ const stonecuttables = [
         onlyAsInput: []
     },
     {
-        name: 'sunny_quartz',
-        stones: ['botania:sunny_quartz', 'botania:sunny_quartz_pillar', 'botania:chiseled_sunny_quartz'],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
         name: 'torch',
         stones: [
             'minecraft:torch',
@@ -1708,30 +1563,6 @@ const stonecuttables = [
             'betterendforge:sulphuric_rock_tiles',
             'betterendforge:sulphuric_rock_polished',
             'betterendforge:sulphuric_rock'
-        ],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
-        name: 'demon_brick',
-        stones: [
-            'bloodmagic:dungeon_smallbrick',
-            'bloodmagic:dungeon_tilespecial',
-            'bloodmagic:dungeon_tile',
-            'bloodmagic:dungeon_brick_assorted',
-            'bloodmagic:dungeon_brick3',
-            'bloodmagic:dungeon_brick2',
-            'bloodmagic:dungeon_brick1'
-        ],
-        onlyAsOutput: [],
-        onlyAsInput: []
-    },
-    {
-        name: 'demon_pillar',
-        stones: [
-            'bloodmagic:dungeon_pillar_cap',
-            'bloodmagic:dungeon_pillar_special',
-            'bloodmagic:dungeon_pillar_center'
         ],
         onlyAsOutput: [],
         onlyAsInput: []

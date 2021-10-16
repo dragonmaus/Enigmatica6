@@ -117,17 +117,6 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: 'minecraft:item',
-                        weight: 3,
-                        functions: [
-                            {
-                                function: 'set_nbt',
-                                tag: `{flavor:\"Launches the caster into the air and grants temporary elytra flight!\",color:\"255,25,180\",spell_0:\"[self, launch, launch, glide, duration_down]\",display:{Name:\"{\\\"italic\\\":true,\\\"color\\\":\\\"dark_purple\\\",\\\"text\\\":\\\"Takeoff!\\\"}\"},current_slot:0,max_slot:1}`
-                            }
-                        ],
-                        name: 'ars_nouveau:caster_tome'
-                    },
-                    {
-                        type: 'minecraft:item',
                         weight: 1,
                         name: 'artifacts:cloud_in_a_bottle'
                     },
@@ -158,28 +147,6 @@ onEvent('server.datapack.high_priority', (event) => {
                     },
                     {
                         type: 'item',
-                        weight: 2,
-                        name: 'apotheosis:potion_charm',
-                        functions: [
-                            {
-                                function: 'set_nbt',
-                                tag: `{Damage:0,Potion:\"minecraft:long_slow_falling\"}`
-                            }
-                        ]
-                    },
-                    {
-                        type: 'item',
-                        weight: 2,
-                        name: 'apotheosis:potion_charm',
-                        functions: [
-                            {
-                                function: 'set_nbt',
-                                tag: `{Damage:0,Potion:\"undergarden:strong_featherweight\"}`
-                            }
-                        ]
-                    },
-                    {
-                        type: 'item',
                         weight: 1,
                         name: 'minecraft:enchanted_book',
                         functions: [
@@ -203,11 +170,6 @@ onEvent('server.datapack.high_priority', (event) => {
                             }
                         ],
                         name: 'archers_paradox:lightning_arrow'
-                    },
-                    {
-                        type: 'minecraft:item',
-                        weight: 2,
-                        name: 'naturesaura:break_prevention'
                     },
                     {
                         type: 'minecraft:item',
@@ -235,11 +197,6 @@ onEvent('server.datapack.high_priority', (event) => {
                                 treasure: true
                             }
                         ]
-                    },
-                    {
-                        type: 'minecraft:item',
-                        weight: 1,
-                        name: 'ars_nouveau:belt_of_levitation'
                     }
                 ]
             },

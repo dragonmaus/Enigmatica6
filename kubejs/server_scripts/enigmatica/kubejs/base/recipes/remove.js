@@ -22,9 +22,6 @@ onEvent('recipes', (event) => {
     event.remove({ mod: 'theoneprobe' });
 
     var outputRemovals = [
-        'aiotbotania:livingwood_shears',
-        'aiotbotania:livingrock_shears',
-
         'byg:blue_enchanted_crafting_table',
         'byg:green_enchanted_crafting_table',
 
@@ -62,15 +59,7 @@ onEvent('recipes', (event) => {
         'aquaculture:planks_from_driftwood',
         'aquaculture:red_mushroom_from_red_shrooma',
 
-        'astralsorcery:infuser/gold_ore',
-        'astralsorcery:shaped/marble/marble_slab',
-
         'betterendforge:gunpowder_from_sulphur',
-
-        'bloodmagic:smelting/ingot_netherite_scrap',
-        'bloodmagic:alchemytable/gunpowder',
-
-        'botania:fertilizer_dye',
 
         'botanypots:crafting/compact_hopper_botany_pot',
 
@@ -83,9 +72,6 @@ onEvent('recipes', (event) => {
         'create:mechanical_crafting/integrated_circuit',
         'create:pressing/lapis_block',
         'create:fill_minecraft_bucket_with_create_honey',
-
-        'eidolon:tallow',
-        'eidolon:smelt_stone_brick',
 
         /emendatusenigmatica:dust_from_chunk/,
         'emendatusenigmatica:dust_from_ore/quartz',
@@ -261,11 +247,6 @@ onEvent('recipes', (event) => {
     event.remove({
         output: '/emendatusenigmatica:\\w+_gear/',
         mod: 'immersiveengineering'
-    });
-
-    event.remove({
-        mod: 'occultism',
-        type: 'occultism:miner'
     });
 
     event.remove({

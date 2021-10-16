@@ -7,7 +7,6 @@ onEvent('item.tags', (event) => {
         'rftoolsbase:dimensionalshard',
         'minecraft:ender_pearl',
         'minecraft:coal',
-        'ars_nouveau:mana_gem',
         'immersivepetroleum:bitumen',
         'thermal:bitumen',
         'betterendforge:crystalline_sulphur',
@@ -26,10 +25,8 @@ onEvent('item.tags', (event) => {
     event.get(gems_ender).add('minecraft:ender_pearl');
     event.get(gems_coal).add('minecraft:coal');
     event.get('forge:gems/dimensional').add('rftoolsbase:dimensionalshard');
-    event.get('forge:gems/mana').add('ars_nouveau:mana_gem');
     event.get('forge:gems/charcoal').add('minecraft:charcoal');
     event.add('forge:gems/bitumen', ['immersivepetroleum:bitumen', 'thermal:bitumen']);
-    event.get('forge:gems/mana_gem').remove('ars_nouveau:mana_gem');
     event.get('forge:gems/sulfur').add('betterendforge:crystalline_sulphur');
     event.get('forge:gems/amber').add('betterendforge:amber_gem');
 

@@ -25,28 +25,6 @@
             }
         },
         {
-            output: Item.of('compactmachines:tunnel', { definition: { id: 'compactmachines:item' } }),
-            pattern: ['ABA', 'BCB', 'DBD'],
-            key: {
-                A: 'minecraft:hopper',
-                B: '#forge:gems/dimensional',
-                C: 'occultism:wormhole_frame',
-                D: '#forge:chests'
-            },
-            id: 'compactmachines:tunnel/item'
-        },
-        {
-            output: Item.of('compactmachines:tunnel', { definition: { id: 'compactmachines:redstone_in' } }),
-            pattern: ['ABA', 'BCB', 'DBD'],
-            key: {
-                A: 'glassential:glass_redstone',
-                B: '#forge:gems/dimensional',
-                C: 'occultism:wormhole_frame',
-                D: 'minecraft:redstone_torch'
-            },
-            id: 'compactmachines:tunnel/redstone'
-        },
-        {
             output: 'minecraft:furnace',
             pattern: ['LLL', 'L L', 'LLL'],
             key: {
@@ -58,22 +36,6 @@
             pattern: ['A', 'A'],
             key: {
                 A: '#minecraft:logs'
-            }
-        },
-        {
-            output: Item.of('occultism:candle_white'),
-            pattern: [' B ', 'AAA', 'AAA'],
-            key: {
-                A: '#forge:wax',
-                B: '#forge:string'
-            }
-        },
-        {
-            output: Item.of('eidolon:candle', 4),
-            pattern: ['B', 'A'],
-            key: {
-                A: '#forge:wax',
-                B: '#forge:string'
             }
         },
         {
@@ -100,26 +62,6 @@
                 B: '#forge:glass/colorless',
                 C: 'thermal:cured_rubber'
             }
-        },
-        {
-            output: 'mythicbotany:alfsteel_pylon',
-            pattern: [' n ', 'npn', ' g '],
-            key: {
-                n: 'mythicbotany:alfsteel_nugget',
-                g: 'minecraft:ghast_tear',
-                p: 'botania:gaia_pylon'
-            },
-            id: 'mythicbotany:alfsteel_pylon'
-        },
-        {
-            output: 'botania:gaia_pylon',
-            pattern: [' D ', 'EPE', ' D '],
-            key: {
-                P: 'botania:mana_pylon',
-                D: 'botania:pixie_dust',
-                E: '#forge:ingots/elementium'
-            },
-            id: 'mythicbotany:modified_gaia_pylon_with_alfsteel'
         }
     ];
 

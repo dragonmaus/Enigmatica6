@@ -25,7 +25,7 @@
             {
                 "type": "ENTITY",
                 "inputID": "entity:minecraft:villager",
-                "outputs": [{ "outputID": "entity:minecraft:villager", "weight": 10, "nbtData": {"VillagerData":{"profession":"librarian","level":2,"type":"plains"},"PersistenceRequired":1,"Offers":{"Recipes":[{"buyB":{"id":"book","Count":1},"buy":{"id":"gold_ingot","Count":1},"sell":{"id":"darkutils:book_galactic","Count":1},"rewardExp":"0b","maxUses":99999},{"buy":{"id":"book","Count":1},"buyB":{"id":"diamond","Count":1},"sell":{"id":"darkutils:book_runelic","Count":1},"rewardExp":"0b","maxUses":99999},{"buy":{"id":"oak_log","Count":2},"buyB":{"id":"iron_ingot","Count":2},"sell":{"id":"supplementaries:globe","Count":1},"rewardExp":"0b","maxUses":99999},{"buy":{"id":"book","Count":1},"buyB":{"id":"emerald","Count":1},"sell":{"id":"enchanted_book","Count":1,"tag":{"StoredEnchantments":[{"id":"apotheosis:life_mending","lvl":3}]}},"rewardExp":"0b","maxUses":99999}]}}}]
+                "outputs": [{ "outputID": "entity:minecraft:villager", "weight": 10, "nbtData": {"VillagerData":{"profession":"librarian","level":2,"type":"plains"},"PersistenceRequired":1,"Offers":{"Recipes":[{"buyB":{"id":"book","Count":1},"buy":{"id":"gold_ingot","Count":1},"sell":{"id":"darkutils:book_galactic","Count":1},"rewardExp":"0b","maxUses":99999},{"buy":{"id":"book","Count":1},"buyB":{"id":"diamond","Count":1},"sell":{"id":"darkutils:book_runelic","Count":1},"rewardExp":"0b","maxUses":99999},{"buy":{"id":"oak_log","Count":2},"buyB":{"id":"iron_ingot","Count":2},"sell":{"id":"supplementaries:globe","Count":1},"rewardExp":"0b","maxUses":99999}]}}}]
             }
         ]
     },

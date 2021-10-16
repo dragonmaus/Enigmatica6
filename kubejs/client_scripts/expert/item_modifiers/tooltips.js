@@ -25,10 +25,6 @@ onEvent('item.tooltip', (event) => {
     }
     const recipes = [
         {
-            items: ['bloodmagic:soulpickaxe'],
-            text: [Text.of('Capable of mining Iesnium.').color('#7e24b3')]
-        },
-        {
             items: ['tconstruct:seared_melter'],
             text: [Text.of('Disabled in Expert Mode - Use the Smeltery Controller.').darkGreen()]
         },

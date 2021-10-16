@@ -1,7 +1,5 @@
 onEvent('item.tags', (event) => {
     var items = [
-        'botania:flare_chakram',
-        'botania:thorn_chakram',
         'gunswithoutroses:diamond_gatling',
         'gunswithoutroses:diamond_shotgun',
         'gunswithoutroses:diamond_sniper',

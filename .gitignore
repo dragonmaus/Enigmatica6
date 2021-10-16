@@ -40,7 +40,6 @@ knownkeys.txt
 servers.dat
 realms_persistence.json
 ItemDump.txt
-BotaniaVars.dat
 crafttweaker.log
 github_changelog_generator.gemspec
 whitelist.json
@@ -107,20 +106,16 @@ config/rftoolsstorage-client.toml
 config/rftoolscontrol-client.toml
 config/rftoolsbuilder-client.toml
 config/ambientsounds-client.json
-config/mythicbotany-client.toml
 config/farmersdelight-client.toml
 config/rftoolspower-client.toml
-config/astralsorcery-client.toml
 config/create-client.toml
 config/cagedmobs-client.toml
-config/eidolon-client.toml
 config/sophisticatedbackpacks-client.toml
 config/thermal-client.toml
 config/abnormals_core-client.toml
 config/computercraft-client.toml
 config/supplementaries-client.toml
 config/artifacts-client.toml
-config/occultism-client.toml
 config/betterendforge/client-config.toml
 config/upgrade_aquatic-client.toml
 config/immersivepetroleum-client.toml
@@ -185,7 +180,6 @@ config/blue_skies-client.toml
 config/dummmmmmy-client.toml
 config/smoothboot.json
 config/InventoryHUD/curios.json
-config/bloodmagic-client.toml
 config/jmi-client.toml
 config/tconplanner-client.toml
 tconplanner/bookmark.dat

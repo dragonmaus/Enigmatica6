@@ -1565,13 +1565,6 @@
 					consume_items: true
 				}
 				{
-					id: "382A604CF0387758"
-					type: "item"
-					item: "botania:tiny_potato"
-					count: 2863L
-					consume_items: true
-				}
-				{
 					id: "1B6A594B8B7AEDC7"
 					type: "item"
 					item: "minecraft:baked_potato"
@@ -1617,17 +1610,6 @@
 					id: "5BAE86CC78F24DFD"
 					type: "item"
 					item: "simplefarming:potato_knish"
-					count: 2863L
-					consume_items: true
-				}
-				{
-					id: "3D08E07D00A24BEB"
-					type: "item"
-					item: {
-						id: "botania:cosmetic_tiny_potato_mask"
-						Count: 1b
-						tag: { }
-					}
 					count: 2863L
 					consume_items: true
 				}

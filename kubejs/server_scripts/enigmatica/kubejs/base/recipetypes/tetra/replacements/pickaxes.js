@@ -41,47 +41,9 @@ onEvent('server.datapack.low_priority', (event) => {
                 stick: 'treated_wood'
             },
             {
-                item: 'naturesaura:infused_iron_pickaxe',
-                material: 'infused_iron',
-                stick: 'treated_wood',
-                improvements: {
-                    'double/head_left:naturesaura_aura_mending_innate': 1,
-                    'double/head_right:naturesaura_aura_mending_innate': 1
-                }
-            },
-            {
-                item: 'naturesaura:sky_pickaxe',
-                material: 'sky',
-                stick: 'treated_wood',
-                improvements: {
-                    'double/head_left:naturesaura_aura_mending_innate': 1,
-                    'double/head_right:naturesaura_aura_mending_innate': 1
-                }
-            },
-            {
-                item: 'botania:manasteel_pick',
-                material: 'manasteel',
-                stick: 'treated_wood'
-            },
-            {
-                item: 'botania:elementium_pickaxe',
-                material: 'elementium',
-                stick: 'jacaranda'
-            },
-            {
-                item: 'botania:terra_pick',
-                material: 'terrasteel',
-                stick: 'terrasteel'
-            },
-            {
                 item: 'aquaculture:neptunium_pickaxe',
                 material: 'neptunium',
                 stick: 'neptunium'
-            },
-            {
-                item: 'mythicbotany:alfsteel_pick',
-                material: 'alfsteel',
-                stick: 'alfsteel'
             }
         ]
     };

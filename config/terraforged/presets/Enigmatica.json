@@ -37,24 +37,6 @@
       "disabled": false
     },
     "structures": {
-      "astralsorcery:ancient_shrine": {
-        "spacing": 32,
-        "separation": 4,
-        "salt": 682195648,
-        "disabled": false
-      },
-      "astralsorcery:desert_shrine": {
-        "spacing": 22,
-        "separation": 4,
-        "salt": 1384822272,
-        "disabled": false
-      },
-      "astralsorcery:small_shrine": {
-        "spacing": 22,
-        "separation": 4,
-        "salt": 1549795968,
-        "disabled": false
-      },
       "atmospheric:arid_shrine": {
         "spacing": 32,
         "separation": 8,
@@ -101,24 +83,6 @@
         "spacing": 36,
         "separation": 8,
         "salt": 630165632,
-        "disabled": false
-      },
-      "eidolon:catacomb": {
-        "spacing": 11,
-        "separation": 7,
-        "salt": 1347,
-        "disabled": false
-      },
-      "eidolon:lab": {
-        "spacing": 7,
-        "separation": 5,
-        "salt": 1337,
-        "disabled": false
-      },
-      "eidolon:stray_tower": {
-        "spacing": 16,
-        "separation": 8,
-        "salt": 1341,
         "disabled": false
       },
       "minecraft:bastion_remnant": {

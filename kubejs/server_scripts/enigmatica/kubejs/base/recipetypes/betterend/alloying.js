@@ -14,12 +14,6 @@ onEvent('recipes', (event) => {
                 smelttime: 300
             },
             {
-                ingredients: [{ tag: 'forge:ingots/iron' }, { tag: 'forge:ingots/lead' }],
-                result: Item.of('eidolon:pewter_ingot', 2),
-                experience: 2,
-                smelttime: 300
-            },
-            {
                 ingredients: [{ tag: 'forge:ingots/copper' }, { tag: 'forge:ingots/nickel' }],
                 result: Item.of('emendatusenigmatica:constantan_ingot', 2),
                 experience: 2,

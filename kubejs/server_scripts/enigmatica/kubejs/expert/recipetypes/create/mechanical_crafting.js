@@ -6,50 +6,6 @@ onEvent('recipes', (event) => {
     const id_prefix = 'enigmatica:expert/create/mechanical_crafting/';
     const recipes = [
         {
-            output: 'astralsorcery:hand_telescope',
-            pattern: ['    A ', '   ABA', '  CBA ', ' CDC  ', 'ACC   ', 'BA    '],
-            key: {
-                A: '#forge:plates/brass',
-                B: 'astralsorcery:glass_lens',
-                C: 'botania:livingwood_planks',
-                D: '#botania:runes/autumn'
-            },
-            id: 'astralsorcery:altar/hand_telescope'
-        },
-        {
-            output: 'astralsorcery:observatory',
-            pattern: [
-                '      ABC',
-                '     DBCB',
-                '    EBCBA',
-                '   FBJBG ',
-                '  ABKBH  ',
-                ' LB BI   ',
-                'M CBAO   ',
-                'MN LPO   ',
-                'MMMOOO   '
-            ],
-            key: {
-                A: '#forge:inlays/arcane_gold',
-                B: 'astralsorcery:marble_runed',
-                C: 'kubejs:observatory_lens',
-                D: 'quark:lime_rune',
-                E: 'quark:orange_rune',
-                F: 'quark:red_rune',
-                G: 'quark:magenta_rune',
-                H: 'quark:blue_rune',
-                I: 'quark:light_blue_rune',
-                J: 'quark:black_rune',
-                K: '#botania:runes/asgard',
-                L: '#forge:nuggets/brass',
-                M: '#forge:plates/brass',
-                N: '#create:seats',
-                O: 'create:brass_casing',
-                P: 'immersiveengineering:furnace_heater'
-            },
-            id: 'astralsorcery:observatory'
-        },
-        {
             output: Item.of('immersiveengineering:blastbrick', 9),
             pattern: ['ADA', 'CBC', 'AEA'],
             key: {
@@ -83,20 +39,6 @@ onEvent('recipes', (event) => {
                 P: 'create:brass_casing'
             },
             id: 'create:mechanical_crafting/crushing_wheel'
-        },
-        {
-            output: 'refinedstorage:disk_drive',
-            pattern: ['ABCBA', 'BDEDB', 'CFGFC', 'BDEDB', 'ABCBA'],
-            key: {
-                A: '#forge:circuits/basic',
-                B: 'refinedstorage:advanced_processor',
-                C: 'refinedstorage:quartz_enriched_iron',
-                D: 'occultism:storage_stabilizer_tier1',
-                E: '#xnet:advanced_connectors',
-                F: 'immersiveengineering:logic_unit',
-                G: 'refinedstorage:machine_casing'
-            },
-            id: 'refinedstorage:disk_drive'
         },
         {
             output: 'powah:energizing_orb',
@@ -227,18 +169,6 @@ onEvent('recipes', (event) => {
                 F: 'pneumaticcraft:spawner_agitator'
             },
             id: `${id_prefix}spawner_extractor`
-        },
-        {
-            output: 'create:flywheel',
-            pattern: [' AAA ', 'ABCBA', 'ACDCA', 'ABEBA', ' AAA '],
-            key: {
-                A: '#forge:plates/brass',
-                B: '#forge:rods/brass',
-                C: '#forge:gears/enderium',
-                D: 'create:brass_casing',
-                E: 'ars_nouveau:carbuncle_charm'
-            },
-            id: 'create:mechanical_crafting/flywheel'
         }
     ];
 

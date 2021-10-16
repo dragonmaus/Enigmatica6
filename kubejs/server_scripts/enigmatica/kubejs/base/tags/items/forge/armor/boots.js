@@ -2,10 +2,7 @@ onEvent('item.tags', (event) => {
     var items = [
         'immersiveengineering:armor_faraday_feet',
         'immersiveengineering:armor_steel_feet',
-        'mekanism:free_runners',
-        'naturesaura:infused_iron_shoes',
-        'naturesaura:sky_shoes',
-        'bloodmagic:livingboots'
+        'mekanism:free_runners'
     ];
     var exceptions = [
         'pneumaticcraft:jet_boots_upgrade_1',

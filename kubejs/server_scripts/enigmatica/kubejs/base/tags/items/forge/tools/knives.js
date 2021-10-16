@@ -5,8 +5,7 @@ onEvent('item.tags', (event) => {
         'farmersdelight:diamond_knife',
         'farmersdelight:netherite_knife',
         'farmersdelight:golden_knife',
-        'aquaculture:neptunium_fillet_knife',
-        'occultism:butcher_knife'
+        'aquaculture:neptunium_fillet_knife'
     ];
 
     var exceptions = [

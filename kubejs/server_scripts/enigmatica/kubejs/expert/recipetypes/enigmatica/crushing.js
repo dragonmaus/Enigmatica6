@@ -8,8 +8,7 @@ onEvent('recipes', (event) => {
         //     output: Item.of('minecraft:diamond', 8),
         //     input: Item.of('minecraft:lead'),
         //     experience: 0.5,
-        //     duration: 100,
-        //     ignore_occultism_multiplier: true
+        //     duration: 100
         // }
     ];
 
@@ -19,28 +18,6 @@ onEvent('recipes', (event) => {
             type: 'pedestals:pedestal_crushing',
             ingredient: recipe.input,
             result: recipe.output
-        });
-
-        // occultism
-        event.custom({
-            type: 'occultism:crushing',
-            ingredient: recipe.input,
-            result: recipe.output,
-            crushing_time: recipe.duration,
-            ignore_crushing_multiplier: recipe.ignore_occultism_multiplier
-        });
-
-        // astralsorcery
-        event.custom({
-            type: 'astralsorcery:infuser',
-            fluidInput: 'astralsorcery:liquid_starlight',
-            input: recipe.input,
-            output: recipe.output,
-            consumptionChance: 0.1,
-            duration: recipe.duration,
-            consumeMultipleFluids: false,
-            acceptChaliceInput: true,
-            copyNBTToOutputs: false
         });
 
         // industrialforegoing

@@ -1,6 +1,4 @@
 onEvent('item.tags', (event) => {
-    event.get('forge:planks/ancient').add('naturesaura:ancient_planks');
-
     event.get('forge:planks/oak').add('minecraft:oak_planks');
     event.get('forge:planks/spruce').add('minecraft:spruce_planks');
     event.get('forge:planks/birch').add('minecraft:birch_planks');

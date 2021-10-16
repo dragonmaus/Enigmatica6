@@ -1,6 +1,5 @@
 onEvent('recipes', (event) => {
     const recipes = [
-        { output: 'botania:enchanted_soil', inputs: ['minecraft:grass_block', 'botania:overgrowth_seed'] },
         { output: 'minecraft:sticky_piston', inputs: ['minecraft:piston', '#forge:slimeballs'] },
         { output: 'minecraft:flint', inputs: ['#forge:gravel', '#forge:gravel', '#forge:gravel'] },
         { output: 'simplefarming:cornbread', inputs: ['#forge:grain', '#forge:crops/corn', '#forge:grain'] },
@@ -73,12 +72,6 @@ onEvent('recipes', (event) => {
             inputs: ['prettypipes:item_terminal', 'prettypipes:low_crafting_module'],
             id: 'prettypipes:crafting_terminal'
         },
-        { output: 'ars_nouveau:mana_gem', inputs: ['emendatusenigmatica:arcane_gem'] },
-        { output: 'emendatusenigmatica:arcane_gem', inputs: ['ars_nouveau:mana_gem'] },
-        {
-            output: 'botania:fertilizer',
-            inputs: ['#forge:fertilizer', '#forge:dyes', '#forge:dyes', '#forge:dyes', '#forge:dyes']
-        },
         { output: 'emendatusenigmatica:dimensional_gem', inputs: ['rftoolsbase:dimensionalshard'] },
         { output: 'rftoolsbase:dimensionalshard', inputs: ['emendatusenigmatica:dimensional_gem'] },
 
@@ -148,16 +141,6 @@ onEvent('recipes', (event) => {
                             }
                         }
                     },
-                    astralsorcery: {
-                        id: 'astralsorcery:tome',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': { text: 'Astral Tome' },
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Astral Tome"}]}'
-                            }
-                        }
-                    },
                     theoneprobe: {
                         id: 'theoneprobe:probenote',
                         Count: 1,
@@ -195,26 +178,6 @@ onEvent('recipes', (event) => {
                             'akashictome:displayName': { text: "Engineer's Manual" },
                             display: {
                                 Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Engineer\'s Manual"}]}'
-                            }
-                        }
-                    },
-                    eidolon: {
-                        id: 'eidolon:codex',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': { text: 'Ars Ecclesia' },
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Ars Ecclesia"}]}'
-                            }
-                        }
-                    },
-                    botania: {
-                        id: 'botania:lexicon',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': { text: 'Lexica Botania' },
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Lexica Botania"}]}'
                             }
                         }
                     },
@@ -302,17 +265,6 @@ onEvent('recipes', (event) => {
                             }
                         }
                     },
-                    naturesaura: {
-                        id: 'patchouli:guide_book',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': { text: 'Book of Natural Aura' },
-                            'patchouli:book': 'naturesaura:book',
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Book of Natural Aura"}]}'
-                            }
-                        }
-                    },
                     pedestals: {
                         id: 'patchouli:guide_book',
                         Count: 1,
@@ -346,16 +298,6 @@ onEvent('recipes', (event) => {
                             }
                         }
                     },
-                    occultism: {
-                        id: 'occultism:dictionary_of_spirits',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': { text: 'Dictionary of Spirits' },
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Dictionary of Spirits"}]}'
-                            }
-                        }
-                    },
                     solcarrot: {
                         id: 'solcarrot:food_book',
                         Count: 1,
@@ -377,27 +319,6 @@ onEvent('recipes', (event) => {
                             }
                         }
                     },
-                    ars_nouveau: {
-                        id: 'ars_nouveau:worn_notebook',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': { text: 'Worn Notebook' },
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Worn Notebook"}]}'
-                            }
-                        }
-                    },
-                    bloodmagic: {
-                        id: 'patchouli:guide_book',
-                        Count: 1,
-                        tag: {
-                            'akashictome:displayName': { text: 'Sanguine Scientiem' },
-                            'patchouli:book': 'bloodmagic:guide',
-                            display: {
-                                Name: '{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Sanguine Scientiem"}]}'
-                            }
-                        }
-                    },
                     betterendforge: {
                         id: 'betterendforge:guidebook',
                         Count: 1,
@@ -412,7 +333,6 @@ onEvent('recipes', (event) => {
             }),
             inputs: ['minecraft:book', '#forge:bookshelves']
         },
-        { output: Item.of('occultism:tallow', 9), inputs: ['quark:tallow_block'] },
         {
             output: 'minecraft:writable_book',
             inputs: ['minecraft:book', '#forge:dyes/black', '#forge:feathers'],
@@ -508,21 +428,6 @@ onEvent('recipes', (event) => {
             inputs: ['#enigmatica:washables/terracotta', 'minecraft:water_bucket']
         },
         {
-            output: 'mythicbotany:raindeletia_floating',
-            inputs: ['kubejs:disabled_recipe_indicator'],
-            id: 'mythicbotany:raindeletia_floating'
-        },
-        {
-            output: 'mythicbotany:wither_aconite_floating',
-            inputs: ['kubejs:disabled_recipe_indicator'],
-            id: 'mythicbotany:wither_aconite_floating'
-        },
-        {
-            output: Item.of('eidolon:pewter_blend', 2),
-            inputs: ['#forge:dusts/lead', '#forge:dusts/iron'],
-            id: 'eidolon:pewter_blend'
-        },
-        {
             output: Item.of('minecraft:string', 3),
             inputs: ['#forge:crops/kenaf', '#forge:crops/kenaf', '#forge:crops/kenaf'],
             id: 'simplefarming:string'
@@ -542,16 +447,6 @@ onEvent('recipes', (event) => {
         {
             output: 'sushigocrafting:soy_seeds',
             inputs: ['sushigocrafting:soy_bean']
-        },
-        {
-            output: Item.of('ars_nouveau:source_berry_roll', 3),
-            inputs: [
-                'farmersdelight:wheat_dough',
-                'farmersdelight:wheat_dough',
-                'farmersdelight:wheat_dough',
-                '#forge:fruits/mana_berry'
-            ],
-            id: 'ars_nouveau:source_berry_roll'
         }
     ];
 

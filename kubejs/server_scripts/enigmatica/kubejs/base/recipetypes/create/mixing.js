@@ -111,10 +111,6 @@ onEvent('recipes', (event) => {
                 output: Item.of('emendatusenigmatica:invar_ingot', 3)
             },
             {
-                inputs: ['#forge:ingots/iron', '#forge:ingots/lead'],
-                output: Item.of('eidolon:pewter_ingot', 2)
-            },
-            {
                 inputs: ['#forge:ingots/iron', '#forge:dusts/ender'],
                 output: Item.of('betterendforge:terminite_ingot', 1)
             },

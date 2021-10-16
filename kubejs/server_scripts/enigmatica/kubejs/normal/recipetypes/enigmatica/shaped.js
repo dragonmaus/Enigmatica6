@@ -8,19 +8,6 @@ onEvent('recipes', (event) => {
             output: 'magicfeather:magicfeather',
             pattern: ['CFC', 'BDB', 'AEA'],
             key: {
-                A: 'alexsmobs:roadrunner_feather',
-                B: '#forge:ingots/enderium',
-                C: 'ars_nouveau:mana_fiber',
-                D: 'byg:leaf_pile',
-                E: 'ars_nouveau:glyph_launch',
-                F: 'ars_nouveau:glyph_slowfall'
-            },
-            id: `${id_prefix}magicfeather_magic`
-        },
-        {
-            output: 'magicfeather:magicfeather',
-            pattern: ['CFC', 'BDB', 'AEA'],
-            key: {
                 A: 'thermal:lightning_charge',
                 B: '#mekanism:alloys/atomic',
                 C: 'thermal:hazmat_fabric',

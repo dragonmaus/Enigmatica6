@@ -5,11 +5,6 @@ onEvent('server.datapack.low_priority', (event) => {
                 item: 'aquaculture:neptunium_bow',
                 material: 'neptunium',
                 string: 'string'
-            },
-            {
-                item: 'botaniaadditions:terra_bow',
-                material: 'terrasteel',
-                string: 'string'
             }
         ]
     };

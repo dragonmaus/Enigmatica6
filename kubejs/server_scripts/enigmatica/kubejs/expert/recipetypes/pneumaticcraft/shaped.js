@@ -196,23 +196,6 @@ onEvent('recipes', (event) => {
         },
         {
             output: Item.of(
-                'pneumaticcraft:electrostatic_compressor',
-                '{BlockEntityTag:{UpgradeInventory:{Size:4,Items:[{Slot:0,id:"pneumaticcraft:security_upgrade",Count:1b}]}}}'
-            ),
-            pattern: ['ABA', 'FDG', 'CEC'],
-            key: {
-                A: '#botania:runes/air',
-                B: '#forge:circuits/basic',
-                C: 'pneumaticcraft:advanced_pressure_tube',
-                D: 'thermal:machine_frame',
-                E: 'thermal:upgrade_augment_3',
-                F: 'supplementaries:bellows',
-                G: 'pneumaticcraft:turbine_rotor'
-            },
-            id: 'pneumaticcraft:electrostatic_compressor'
-        },
-        {
-            output: Item.of(
                 'pneumaticcraft:thermal_compressor',
                 '{BlockEntityTag:{UpgradeInventory:{Size:4,Items:[{Slot:0,id:"pneumaticcraft:security_upgrade",Count:1b}]}}}'
             ),
@@ -334,44 +317,6 @@ onEvent('recipes', (event) => {
                 E: 'thermal:lightning_charge'
             },
             id: 'pneumaticcraft:jet_boots_upgrade_3'
-        },
-        {
-            output: 'pneumaticcraft:jet_boots_upgrade_4',
-            pattern: ['DCD', 'ABA', 'ECE'],
-            key: {
-                A: 'pneumaticcraft:vortex_cannon',
-                B: 'pneumaticcraft:jet_boots_upgrade_3',
-                C: Item.of('tconstruct:copper_can', '{fluid:"industrialforegoing:ether_gas"}'),
-                D: '#forge:circuits/ultimate',
-                E: Item.of('apotheosis:potion_charm', '{Damage:0,Potion:"minecraft:long_slow_falling"}')
-            },
-            id: 'pneumaticcraft:jet_boots_upgrade_4'
-        },
-        {
-            output: 'pneumaticcraft:jet_boots_upgrade_5',
-            pattern: ['DCD', 'ABA', 'ECE'],
-            key: {
-                A: 'pneumaticcraft:vortex_cannon',
-                B: 'pneumaticcraft:jet_boots_upgrade_4',
-                C: 'betterendforge:eternal_crystal',
-                D: '#botania:runes/summer',
-                E: Item.of('minecraft:lingering_potion', '{Potion:"minecraft:long_slow_falling"}')
-            },
-            id: 'pneumaticcraft:jet_boots_upgrade_5'
-        },
-        {
-            output: 'pneumaticcraft:vacuum_trap',
-            pattern: ['ABA', 'CDE', 'FGF'],
-            key: {
-                A: '#forge:ingots/compressed_iron',
-                B: 'engineersdecor:iron_hatch',
-                C: 'pneumaticcraft:reinforced_bricks',
-                D: 'thermal:machine_frame',
-                E: 'pneumaticcraft:pressure_tube',
-                F: '#botania:runes/air',
-                G: 'kubejs:dimensional_storage_crystal'
-            },
-            id: 'pneumaticcraft:vacuum_trap'
         }
     ];
 

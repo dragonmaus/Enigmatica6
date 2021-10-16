@@ -68,12 +68,6 @@ onEvent('recipes', (event) => {
                 id: 'immersiveengineering:crusher/aurora'
             },
             {
-                input: '#forge:end_stones',
-                output: Item.of('occultism:crushed_end_stone', 4),
-                secondary: [],
-                id: 'immersiveengineering:crusher/end_stone'
-            },
-            {
                 input: '#forge:obsidian',
                 output: Item.of('emendatusenigmatica:obsidian_dust', 1),
                 secondary: [Item.of('minecraft:obsidian').chance(0.75)],

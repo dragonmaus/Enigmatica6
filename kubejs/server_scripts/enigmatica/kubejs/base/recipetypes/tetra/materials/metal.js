@@ -127,24 +127,6 @@ onEvent('server.datapack.low_priority', (event) => {
                     requiredTools: { hammer: 2 }
                 },
                 {
-                    key: 'infused_iron',
-                    category: 'metal',
-                    primary: '5',
-                    secondary: '3.8',
-                    tertiary: '3',
-                    durability: '250',
-                    integrityCost: '2',
-                    integrityGain: '5',
-                    magicCapacity: '96',
-                    toolLevel: '3',
-                    toolEfficiency: '6',
-                    tints: { glyph: '299831', texture: '187d1d' },
-                    textures: ['metal', 'default'],
-                    material: { item: 'naturesaura:infused_iron' },
-                    improvements: { naturesaura_aura_mending_innate: 1 },
-                    requiredTools: { hammer: 2 }
-                },
-                {
                     key: 'electrum',
                     category: 'metal',
                     primary: '5',
@@ -230,24 +212,6 @@ onEvent('server.datapack.low_priority', (event) => {
                     tints: { glyph: 'steel_glyph', texture: 'steel' },
                     textures: ['metal', 'default'],
                     material: { tag: 'forge:ingots/steel' },
-                    requiredTools: { hammer: 3 }
-                },
-                {
-                    key: 'sky',
-                    category: 'metal',
-                    primary: '6',
-                    secondary: '3',
-                    tertiary: '3.5',
-                    durability: '1500',
-                    integrityCost: '2',
-                    integrityGain: '6',
-                    magicCapacity: '72',
-                    toolLevel: '4',
-                    toolEfficiency: '8',
-                    tints: { glyph: '00d5c2', texture: '00b59f' },
-                    textures: ['metal', 'default'],
-                    material: { item: 'naturesaura:sky_ingot' },
-                    improvements: { naturesaura_aura_mending_innate: 1 },
                     requiredTools: { hammer: 3 }
                 },
                 {

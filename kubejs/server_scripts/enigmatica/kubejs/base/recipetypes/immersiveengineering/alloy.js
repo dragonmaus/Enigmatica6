@@ -9,11 +9,6 @@ onEvent('recipes', (event) => {
             },
             {
                 input1: '#forge:ingots/iron',
-                input2: '#forge:ingots/lead',
-                output: Item.of('eidolon:pewter_ingot', 2)
-            },
-            {
-                input1: '#forge:ingots/iron',
                 input2: '#forge:dusts/ender',
                 output: Item.of('betterendforge:terminite_ingot')
             },

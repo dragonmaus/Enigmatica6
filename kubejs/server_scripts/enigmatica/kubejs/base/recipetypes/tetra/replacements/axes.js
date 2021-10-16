@@ -41,39 +41,6 @@ onEvent('server.datapack.low_priority', (event) => {
                 handle: 'treated_wood'
             },
             {
-                item: 'naturesaura:infused_iron_axe',
-                material: 'infused_iron',
-                handle: 'treated_wood',
-                improvements: {
-                    'double/head_left:naturesaura_aura_mending_innate': 1,
-                    'double/head_right:naturesaura_aura_mending_innate': 1
-                }
-            },
-            {
-                item: 'naturesaura:sky_axe',
-                material: 'sky',
-                handle: 'treated_wood',
-                improvements: {
-                    'double/head_left:naturesaura_aura_mending_innate': 1,
-                    'double/head_right:naturesaura_aura_mending_innate': 1
-                }
-            },
-            {
-                item: 'botania:manasteel_axe',
-                material: 'manasteel',
-                handle: 'treated_wood'
-            },
-            {
-                item: 'botania:elementium_axe',
-                material: 'elementium',
-                handle: 'jacaranda'
-            },
-            {
-                item: 'botania:terra_axe',
-                material: 'terrasteel',
-                handle: 'terrasteel'
-            },
-            {
                 item: 'aquaculture:neptunium_axe',
                 material: 'neptunium',
                 handle: 'neptunium'

@@ -3,10 +3,7 @@ onEvent('item.tags', (event) => {
         'immersiveengineering:armor_faraday_legs',
         'immersiveengineering:armor_steel_legs',
         'mekanism:hazmat_pants',
-        'mekanism:mekasuit_pants',
-        'naturesaura:infused_iron_pants',
-        'naturesaura:sky_pants',
-        'bloodmagic:livingleggings'
+        'mekanism:mekasuit_pants'
     ];
 
     var exceptions = ['kubejs:pneumatic_leggings_package', 'kubejs:pneumatic_leggings_assembly'];

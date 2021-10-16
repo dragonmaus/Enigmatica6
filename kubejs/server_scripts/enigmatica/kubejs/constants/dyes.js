@@ -1348,16 +1348,3 @@ const dyeSources = [
         tertiary: 'minecraft:black_dye'
     }
 ];
-
-colors.forEach((color) => {
-    var botaniaTypes = ['petal', 'mushroom'];
-    botaniaTypes.forEach((type) => {
-        dyeSources.push({
-            input: 'botania:' + color + '_' + type,
-            type: 'petal',
-            primary: 'minecraft:' + color + '_dye',
-            secondary: 'minecraft:' + color + '_dye',
-            tertiary: 'minecraft:' + color + '_dye'
-        });
-    });
-});

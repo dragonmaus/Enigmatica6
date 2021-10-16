@@ -205,7 +205,7 @@
 		}
 		{
 			title: "Find Me"
-			icon: "naturesaura:range_visualizer"
+			icon: "minecraft:compass"
 			x: -2.0d
 			y: -9.0d
 			description: ["Forgot where you left your precious diorite? Mouse over some in your inventory or JEI and press Y to locate it in nearby inventories. "]
@@ -226,7 +226,7 @@
 		}
 		{
 			title: "Plonk"
-			icon: "botania:cosmetic_thinking_hand"
+			icon: "create:brass_hand"
 			x: -3.0d
 			y: -10.0d
 			description: [
@@ -1136,32 +1136,6 @@
 				title: "Sorcerer's Delight"
 				icon: "kubejs:sorcerers_delight"
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
-				player_command: false
-			}]
-		}
-		{
-			title: "Dimensional Storage"
-			x: 1.5d
-			y: -9.5d
-			subtitle: "Wouldn't you think my collection's complete?"
-			description: [
-				"Got more gadgets and gizmos than one cavern can hold? More whozits and whatzits than you know what to do with? Then its time to shove it in another dimension and hire someone to sort it for you. Just read the fine print of any contracts you sign."
-				""
-				"Occultism offers extensive storage capabilities with cross-dimensional access both manually and via automation. Check out the Occultism chapter for more details on the process. "
-			]
-			dependencies: ["00000000000003FF"]
-			id: "662DA1135F00D6B6"
-			tasks: [{
-				id: "0B58FB5EED4BBC33"
-				type: "item"
-				item: "occultism:storage_controller"
-			}]
-			rewards: [{
-				id: "44BA68CC5061BD0A"
-				type: "command"
-				title: "Scavenger's Delight"
-				icon: "kubejs:scavengers_delight"
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
 				player_command: false
 			}]
 		}

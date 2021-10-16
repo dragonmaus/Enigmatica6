@@ -54,19 +54,6 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
-                { item: 'bloodmagic:fortune_anointment', count: 1 },
-                { item: 'atum:coin_gold', count: 7 },
-                { item: 'resourcefulbees:nether_quartz_honeycomb', count: 7 }
-            ],
-            output: {
-                entries: [{ result: { item: 'meetyourfight:devils_ante', count: 1 }, weight: 1 }],
-                empty_weight: 0,
-                rolls: 1
-            },
-            id: 'meetyourfight:devils_ante'
-        },
-        {
-            inputs: [
                 { item: 'thermal:phytogro', count: 2 },
                 { tag: 'forge:dusts/iron', count: 2 },
                 { tag: 'forge:dusts/nickel', count: 1 }

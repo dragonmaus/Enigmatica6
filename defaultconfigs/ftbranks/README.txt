@@ -1172,9 +1172,6 @@ command.listhomes
 command.listhomes.player
 command.listwarps
 command.locate
-command.locate.astralsorcery:ancient_shrine
-command.locate.astralsorcery:desert_shrine
-command.locate.astralsorcery:small_shrine
 command.locate.bastion_remnant
 command.locate.betterendforge:eternal_portal_structure
 command.locate.betterendforge:giant_ice_star_structure
@@ -1194,9 +1191,6 @@ command.locate.dungeons_plus:snowy_temple
 command.locate.dungeons_plus:soul_prison
 command.locate.dungeons_plus:tower
 command.locate.dungeons_plus:warped_garden
-command.locate.eidolon:catacomb
-command.locate.eidolon:lab
-command.locate.eidolon:stray_tower
 command.locate.endcity
 command.locate.fortress
 command.locate.igloo
@@ -1426,10 +1420,6 @@ command.nickname.nickname
 command.nicknamefor
 command.nicknamefor.player
 command.nicknamefor.player.nickname
-command.occultism
-command.occultism.debug
-command.occultism.debug.ai
-command.occultism.nbt
 command.open-patchouli-book
 command.open-patchouli-book.targets
 command.open-patchouli-book.targets.book

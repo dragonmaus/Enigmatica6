@@ -43,14 +43,6 @@ onEvent('recipes', (event) => {
             heatCapacity: 10000
         },
         {
-            block: 'powah:blazing_crystal_block',
-            temperature: 1700,
-            heatCapacity: 20000,
-            transformCold: {
-                block: 'botania:blaze_block'
-            }
-        },
-        {
             block: 'emendatusenigmatica:uranium_block',
             temperature: 438,
             thermalResistance: 500,

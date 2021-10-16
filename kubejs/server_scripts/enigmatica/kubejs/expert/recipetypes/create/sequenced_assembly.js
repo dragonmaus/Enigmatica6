@@ -142,18 +142,6 @@ onEvent('recipes', (event) => {
                 },
                 {
                     base: 'minecraft:chainmail_helmet',
-                    material: '#forge:ingots/manasteel',
-                    result: 'botania:manasteel_helmet',
-                    id: 'botania:manasteel_helmet'
-                },
-                {
-                    base: 'minecraft:chainmail_helmet',
-                    material: '#forge:ingots/elementium',
-                    result: 'botania:elementium_helmet',
-                    id: 'botania:elementium_helmet'
-                },
-                {
-                    base: 'minecraft:chainmail_helmet',
                     material: '#forge:plates/steel',
                     result: 'immersiveengineering:armor_steel_head',
                     id: 'immersiveengineering:crafting/armor_steel_head'
@@ -193,18 +181,6 @@ onEvent('recipes', (event) => {
                     material: '#forge:ingots/steel',
                     result: 'mekanismtools:steel_helmet',
                     id: 'mekanismtools:steel/armor/helmet'
-                },
-                {
-                    base: 'minecraft:leather_helmet',
-                    material: '#forge:ingots/infused_iron',
-                    result: 'naturesaura:infused_iron_helmet',
-                    id: 'naturesaura:infused_helmet'
-                },
-                {
-                    base: 'minecraft:leather_helmet',
-                    material: '#forge:ingots/sky',
-                    result: 'naturesaura:sky_helmet',
-                    id: 'naturesaura:sky_helmet'
                 },
                 {
                     base: 'thermal:hazmat_helmet',
@@ -279,18 +255,6 @@ onEvent('recipes', (event) => {
                 },
                 {
                     base: 'minecraft:chainmail_chestplate',
-                    material: '#forge:ingots/manasteel',
-                    result: 'botania:manasteel_chestplate',
-                    id: 'botania:manasteel_chestplate'
-                },
-                {
-                    base: 'minecraft:chainmail_chestplate',
-                    material: '#forge:ingots/elementium',
-                    result: 'botania:elementium_chestplate',
-                    id: 'botania:elementium_chestplate'
-                },
-                {
-                    base: 'minecraft:chainmail_chestplate',
                     material: '#forge:plates/steel',
                     result: 'immersiveengineering:armor_steel_chest',
                     id: 'immersiveengineering:crafting/armor_steel_chest'
@@ -330,18 +294,6 @@ onEvent('recipes', (event) => {
                     material: '#forge:ingots/steel',
                     result: 'mekanismtools:steel_chestplate',
                     id: 'mekanismtools:steel/armor/chestplate'
-                },
-                {
-                    base: 'minecraft:leather_chestplate',
-                    material: '#forge:ingots/infused_iron',
-                    result: 'naturesaura:infused_iron_chest',
-                    id: 'naturesaura:infused_chest'
-                },
-                {
-                    base: 'minecraft:leather_chestplate',
-                    material: '#forge:ingots/sky',
-                    result: 'naturesaura:sky_chest',
-                    id: 'naturesaura:sky_chest'
                 },
                 {
                     base: 'thermal:hazmat_chestplate',
@@ -428,18 +380,6 @@ onEvent('recipes', (event) => {
                 },
                 {
                     base: 'minecraft:chainmail_leggings',
-                    material: '#forge:ingots/manasteel',
-                    result: 'botania:manasteel_leggings',
-                    id: 'botania:manasteel_leggings'
-                },
-                {
-                    base: 'minecraft:chainmail_leggings',
-                    material: '#forge:ingots/elementium',
-                    result: 'botania:elementium_leggings',
-                    id: 'botania:elementium_leggings'
-                },
-                {
-                    base: 'minecraft:chainmail_leggings',
                     material: '#forge:plates/steel',
                     result: 'immersiveengineering:armor_steel_legs',
                     id: 'immersiveengineering:crafting/armor_steel_legs'
@@ -479,18 +419,6 @@ onEvent('recipes', (event) => {
                     material: '#forge:ingots/steel',
                     result: 'mekanismtools:steel_leggings',
                     id: 'mekanismtools:steel/armor/leggings'
-                },
-                {
-                    base: 'minecraft:leather_leggings',
-                    material: '#forge:ingots/infused_iron',
-                    result: 'naturesaura:infused_iron_pants',
-                    id: 'naturesaura:infused_pants'
-                },
-                {
-                    base: 'minecraft:leather_leggings',
-                    material: '#forge:ingots/sky',
-                    result: 'naturesaura:sky_pants',
-                    id: 'naturesaura:sky_pants'
                 },
                 {
                     base: 'thermal:hazmat_leggings',
@@ -571,18 +499,6 @@ onEvent('recipes', (event) => {
                 },
                 {
                     base: 'minecraft:chainmail_boots',
-                    material: '#forge:ingots/manasteel',
-                    result: 'botania:manasteel_boots',
-                    id: 'botania:manasteel_boots'
-                },
-                {
-                    base: 'minecraft:chainmail_boots',
-                    material: '#forge:ingots/elementium',
-                    result: 'botania:elementium_boots',
-                    id: 'botania:elementium_boots'
-                },
-                {
-                    base: 'minecraft:chainmail_boots',
                     material: '#forge:plates/steel',
                     result: 'immersiveengineering:armor_steel_feet',
                     id: 'immersiveengineering:crafting/armor_steel_feet'
@@ -622,18 +538,6 @@ onEvent('recipes', (event) => {
                     material: '#forge:ingots/steel',
                     result: 'mekanismtools:steel_boots',
                     id: 'mekanismtools:steel/armor/boots'
-                },
-                {
-                    base: 'minecraft:leather_boots',
-                    material: '#forge:ingots/infused_iron',
-                    result: 'naturesaura:infused_iron_shoes',
-                    id: 'naturesaura:infused_shoes'
-                },
-                {
-                    base: 'minecraft:leather_boots',
-                    material: '#forge:ingots/sky',
-                    result: 'naturesaura:sky_shoes',
-                    id: 'naturesaura:sky_shoes'
                 },
                 {
                     base: 'thermal:hazmat_boots',

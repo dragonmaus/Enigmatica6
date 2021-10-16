@@ -20,12 +20,6 @@ onEvent('recipes', (event) => {
                 id: 'pedestals:pedestal_crushing/basalz_rod'
             },
             {
-                input: 'minecraft:end_stone',
-                output: 'occultism:crushed_end_stone',
-                count: 4,
-                id: 'pedestals:pedestal_crushing/end_stone'
-            },
-            {
                 input: 'minecraft:obsidian',
                 output: 'emendatusenigmatica:obsidian_dust',
                 count: 4,

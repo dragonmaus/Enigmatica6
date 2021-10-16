@@ -19,19 +19,6 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
-                { tag: 'forge:storage_blocks/clay', count: 4 },
-                { tag: 'forge:dusts/mana', count: 1 },
-                { tag: 'forge:dusts/apatite', count: 1 }
-            ],
-            output: {
-                entries: [{ result: { item: 'ars_nouveau:arcane_stone', count: 1 }, weight: 9 }],
-                empty_weight: 1,
-                rolls: 4
-            },
-            id: `${id_prefix}arcane_stone`
-        },
-        {
-            inputs: [
                 { item: 'minecraft:heart_of_the_sea', count: 1 },
                 { item: 'minecraft:nautilus_shell', count: 4 },
                 { tag: 'forge:dusts/lapis', count: 2 },
@@ -44,20 +31,6 @@ onEvent('recipes', (event) => {
                 rolls: 1
             },
             id: 'minecraft:conduit'
-        },
-        {
-            inputs: [
-                { item: 'eidolon:gold_inlay', count: 1 },
-                { item: 'botania:livingwood_wall', count: 1 },
-                { item: 'naturesaura:gold_leaf', count: 1 },
-                { tag: 'forge:dusts/apatite', count: 1 }
-            ],
-            output: {
-                entries: [{ result: { item: 'naturesaura:wood_stand', count: 1 }, weight: 1 }],
-                empty_weight: 0,
-                rolls: 1
-            },
-            id: 'naturesaura:wood_stand'
         },
         {
             inputs: [
@@ -76,58 +49,6 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
-                { item: 'supplementaries:jar', count: 1 },
-                { tag: 'forge:dusts/fluorite', count: 3 }
-            ],
-            output: {
-                entries: [{ result: { item: 'ars_nouveau:jar_of_light', count: 1 }, weight: 1 }],
-                empty_weight: 0,
-                rolls: 1
-            },
-            id: `${id_prefix}jar_of_light`
-        },
-        {
-            inputs: [
-                { item: 'supplementaries:jar', count: 1 },
-                { tag: 'forge:dusts/obsidian', count: 3 }
-            ],
-            output: {
-                entries: [{ result: { item: 'ars_nouveau:void_jar', count: 1 }, weight: 1 }],
-                empty_weight: 0,
-                rolls: 1
-            },
-            id: `${id_prefix}void_jar`
-        },
-        {
-            inputs: [
-                {
-                    type: 'forge:nbt',
-                    item: 'naturesaura:aura_bottle',
-                    count: 1,
-                    nbt: '{stored_type:"naturesaura:overworld"}'
-                },
-                { item: 'naturesaura:infused_iron', count: 1 },
-                { item: 'botania:rune_water', count: 1, return_chance: 0.75 },
-                { item: 'botania:rune_earth', count: 1, return_chance: 0.75 },
-                {
-                    type: 'forge:nbt',
-                    item: 'naturesaura:aura_bottle',
-                    count: 1,
-                    nbt: '{stored_type:"naturesaura:nether"}'
-                },
-                { item: 'naturesaura:tainted_gold', count: 1 },
-                { item: 'botania:rune_fire', count: 1, return_chance: 0.75 },
-                { item: 'botania:rune_air', count: 1, return_chance: 0.75 }
-            ],
-            output: {
-                entries: [{ result: { item: 'naturesaura:calling_spirit', count: 3 }, weight: 1 }],
-                empty_weight: 0,
-                rolls: 1
-            },
-            id: `${id_prefix}calling_spirit`
-        },
-        {
-            inputs: [
                 { tag: 'forge:storage_blocks/iron', count: 1 },
                 { tag: 'forge:dusts/iron', count: 1 },
                 { tag: 'forge:dusts/fluorite', count: 1 },
@@ -139,33 +60,6 @@ onEvent('recipes', (event) => {
                 rolls: 1
             },
             id: `${id_prefix}lodestone`
-        },
-        {
-            inputs: [
-                { tag: 'botania:petals', count: 2 },
-                { item: 'botania:quartz_blaze', count: 2 },
-                { tag: 'forge:nuggets/nebu', count: 1 }
-            ],
-            output: {
-                entries: [{ result: { item: 'botania:spark', count: 1 }, weight: 1 }],
-                empty_weight: 0,
-                rolls: 1
-            },
-            id: `${id_prefix}spark`
-        },
-        {
-            inputs: [
-                { item: 'eidolon:gold_inlay', count: 2 },
-                { item: 'eidolon:pewter_inlay', count: 1 },
-                { tag: 'forge:gems/mana', count: 1 },
-                { item: 'architects_palette:sunmetal_blend', count: 4 }
-            ],
-            output: {
-                entries: [{ result: { item: 'atum:scarab', count: 1 }, weight: 1 }],
-                empty_weight: 0,
-                rolls: 1
-            },
-            id: 'atum:scarab'
         },
         {
             inputs: [

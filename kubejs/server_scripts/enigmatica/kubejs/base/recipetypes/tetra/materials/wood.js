@@ -145,24 +145,6 @@ onEvent('server.datapack.low_priority', (event) => {
             recipes: [
                 // todo: more?
                 {
-                    key: 'ancient_wood',
-                    category: 'wood',
-                    primary: '3',
-                    secondary: '1.7',
-                    tertiary: '6',
-                    durability: '60',
-                    integrityCost: '1',
-                    integrityGain: '4',
-                    magicCapacity: '102',
-                    toolLevel: '1',
-                    toolEfficiency: '2',
-                    tints: { glyph: '99537d', texture: '663753' },
-                    textures: ['crude', 'wooden'],
-                    material: { item: 'naturesaura:ancient_planks' },
-                    improvements: { naturesaura_aura_mending_innate: 1 },
-                    requiredTools: { axe: 2 }
-                },
-                {
                     key: 'treated_wood',
                     category: 'wood',
                     primary: '4',
@@ -196,42 +178,6 @@ onEvent('server.datapack.low_priority', (event) => {
                     textures: ['crude', 'wooden'],
                     material: { tag: 'forge:planks/maple' },
                     requiredTools: { axe: 3 }
-                },
-                {
-                    key: 'livingwood',
-                    category: 'wood',
-                    primary: '3',
-                    secondary: '1.7',
-                    tertiary: '6',
-                    durability: '70',
-                    integrityCost: '1',
-                    integrityGain: '4',
-                    magicCapacity: '120',
-                    toolLevel: '1',
-                    toolEfficiency: '2',
-                    tints: { glyph: '803413', texture: '2b1207' },
-                    textures: ['crude'],
-                    material: { item: 'botania:livingwood_planks' },
-                    improvements: { mana_repair: 3 },
-                    requiredTools: { axe: 2 }
-                },
-                {
-                    key: 'dreamwood',
-                    category: 'wood',
-                    primary: '4',
-                    secondary: '2.5',
-                    tertiary: '7.5',
-                    durability: '150',
-                    integrityCost: '2',
-                    integrityGain: '5',
-                    magicCapacity: '120',
-                    toolLevel: '2',
-                    toolEfficiency: '4',
-                    tints: { glyph: 'adbbbf', texture: '808a8c' },
-                    textures: ['crude'],
-                    material: { item: 'botania:dreamwood_planks' },
-                    improvements: { mana_repair: 3 },
-                    requiredTools: { axe: 2 }
                 },
                 {
                     key: 'cherry',

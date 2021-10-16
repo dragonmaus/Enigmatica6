@@ -11,11 +11,6 @@ onEvent('item.tags', (event) => {
         'immersiveengineering:storage_electrum',
         'immersiveengineering:coke',
         'powah:uraninite_block',
-        'occultism:iesnium_block',
-        'naturesaura:infused_iron_block',
-        'naturesaura:tainted_gold_block',
-        'astralsorcery:starmetal',
-        'ars_nouveau:mana_gem_block',
         'betterendforge:aeternium_block',
         'betterendforge:terminite_block',
         'betterendforge:ender_block',
@@ -23,7 +18,6 @@ onEvent('item.tags', (event) => {
         'betterendforge:amber_block',
         'betterendforge:thallasium_block',
         'powah:energized_steel_block',
-        'mythicbotany:alfsteel_block',
         'powah:blazing_crystal_block',
         'powah:niotic_crystal_block',
         'powah:spirited_crystal_block',
@@ -32,10 +26,6 @@ onEvent('item.tags', (event) => {
     ]);
 
     event.get(storageBlocks + '/glowstone').add('minecraft:glowstone');
-    event.get(storageBlocks + '/mana').add('ars_nouveau:mana_gem_block');
-    event.get(storageBlocks + '/infused_iron').add('naturesaura:infused_iron_block');
-    event.get(storageBlocks + '/tainted_gold').add('naturesaura:tainted_gold_block');
-    event.get(storageBlocks + '/starmetal').add('astralsorcery:starmetal');
 
     event.add(storageBlocks + '/aeternium', ['betterendforge:aeternium_block']);
     event.add(storageBlocks + '/terminite', ['betterendforge:terminite_block']);
@@ -47,7 +37,6 @@ onEvent('item.tags', (event) => {
     event.add(storageBlocks + '/sunmetal', ['architects_palette:sunmetal_block']);
     event.add(storageBlocks + '/tinkers_bronze', ['tconstruct:tinkers_bronze_block']);
     event.add(storageBlocks + '/energized_steel', ['powah:energized_steel_block']);
-    event.add(storageBlocks + '/alfsteel', ['mythicbotany:alfsteel_block']);
 
     event.add(storageBlocks + '/blazing', ['powah:blazing_crystal_block']);
     event.add(storageBlocks + '/niotic', ['powah:niotic_crystal_block']);

@@ -4,8 +4,7 @@ const fires = [
     'minecraft:fire',
     'minecraft:soul_fire',
     'byg:boric_fire',
-    'byg:cryptic_fire',
-    'occultism:spirit_fire'
+    'byg:cryptic_fire'
 ]
 
 const campfires = [
@@ -22,7 +21,6 @@ const campfires = [
 const heatSources = [
     'minecraft:lava',
     'minecraft:magma_block',
-    'botania:blaze_block',
     'byg:cryptic_magma_block',
     'byg:magmatic_stone',
     'create:lit_blaze_burner',

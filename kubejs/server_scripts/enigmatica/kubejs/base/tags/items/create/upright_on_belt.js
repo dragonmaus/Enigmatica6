@@ -3,8 +3,6 @@ onEvent('item.tags', (event) => {
         /bucket/,
         /bottle$/,
         /juice/,
-        'botania:vial',
-        'botania:brew_vial',
         'quark:bottled_cloud'
     ]);
 });

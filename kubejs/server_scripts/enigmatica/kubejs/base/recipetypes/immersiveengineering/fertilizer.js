@@ -10,10 +10,6 @@ onEvent('recipes', (event) => {
                 growthModifier: 3.0
             },
             {
-                input: 'botania:fertilizer',
-                growthModifier: 1.5
-            },
-            {
                 input: 'farmingforblockheads:red_fertilizer',
                 growthModifier: 2.0
             }

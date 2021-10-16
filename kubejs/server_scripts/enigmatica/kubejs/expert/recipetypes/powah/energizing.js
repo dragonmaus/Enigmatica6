@@ -47,20 +47,6 @@ onEvent('recipes', (event) => {
         },
         {
             ingredients: [
-                { item: 'ars_nouveau:wixie_charm' },
-                { item: 'refinedstorage:raw_advanced_processor' },
-                { item: 'refinedstorage:raw_advanced_processor' },
-                { item: 'refinedstorage:raw_advanced_processor' }
-            ],
-            energy: '3000000',
-            result: {
-                item: 'extrastorage:raw_neural_processor',
-                count: 3
-            },
-            id: 'extrastorage:raw_neural_processor'
-        },
-        {
-            ingredients: [
                 { tag: 'forge:storage_blocks/dimensional' },
                 { tag: 'forge:gems/diamond' },
                 { item: 'integrateddynamics:crystalized_menril_block' }
@@ -104,24 +90,6 @@ onEvent('recipes', (event) => {
             id: `${id_prefix}energized_steel_block`
         },
         {
-            ingredients: [{ item: 'ars_nouveau:blaze_fiber' }, { item: 'resourcefulbees:blaze_honeycomb' }],
-            energy: '120000',
-            result: {
-                item: 'powah:crystal_blazing',
-                count: 1
-            },
-            id: 'powah:energizing/blazing_crystal'
-        },
-        {
-            ingredients: [{ item: 'astralsorcery:resonating_gem' }, { tag: 'forge:dusts/starmetal' }],
-            energy: '300000',
-            result: {
-                item: 'powah:crystal_niotic',
-                count: 1
-            },
-            id: 'powah:energizing/niotic_crystal'
-        },
-        {
             ingredients: [{ item: 'atum:osiris_godshard' }, { tag: 'forge:dusts/uranium' }],
             energy: '1000000',
             result: {
@@ -129,33 +97,6 @@ onEvent('recipes', (event) => {
                 count: 1
             },
             id: 'powah:energizing/spirited_crystal'
-        },
-        {
-            ingredients: [
-                { item: 'minecraft:nether_star' },
-                { item: 'bloodmagic:weakbloodshard' },
-                { item: 'bloodmagic:weakbloodshard' },
-                { tag: 'forge:storage_blocks/blazing' }
-            ],
-            energy: '20000000',
-            result: {
-                item: 'powah:crystal_nitro',
-                count: 16
-            },
-            id: 'powah:energizing/nitro_crystal'
-        },
-        {
-            ingredients: [
-                { item: 'botania:ender_eye_block' },
-                { item: 'powah:dielectric_casing' },
-                { tag: 'mekanism:crystals/uranium' }
-            ],
-            energy: '20000000',
-            result: {
-                item: 'powah:ender_core',
-                count: 1
-            },
-            id: 'powah:energizing/ender_core'
         },
         {
             ingredients: [

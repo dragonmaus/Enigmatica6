@@ -4,11 +4,6 @@ onEvent('jei.hide.items', (event) => {
             return;
         }
         itemsToHide.push(
-            'occultism:' + material + '_ingot',
-            'occultism:' + material + '_ore',
-            'occultism:' + material + '_dust',
-            'occultism:' + material + '_nugget',
-            'occultism:' + material + '_block',
             'immersiveengineering:ingot_' + material,
             'immersiveengineering:dust_' + material,
             'immersiveengineering:nugget_' + material,
@@ -17,9 +12,6 @@ onEvent('jei.hide.items', (event) => {
             'mekanism:dust_' + material,
             'mekanism:ingot_' + material,
             'mekanism:block_' + material,
-            'eidolon:ingot_' + material,
-            'eidolon:nugget_' + material,
-            'eidolon:block_' + material,
             'thermal:' + material + '_block'
         );
     });

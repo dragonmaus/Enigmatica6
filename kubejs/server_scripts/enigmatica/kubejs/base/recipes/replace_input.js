@@ -11,8 +11,6 @@ onEvent('recipes', (event) => {
     event.replaceInput({}, 'refinedstorage:silicon', '#forge:silicon');
     event.replaceInput({}, 'refinedstorage:crafter', '#refinedstorage:crafter');
     event.replaceInput({}, 'betterendforge:thallasium_ore', '#forge:ores/thallasium');
-    event.replaceInput({}, 'astralsorcery:starmetal_ore', '#forge:ores/starmetal');
-    event.replaceInput({}, 'mythicbotany:elementium_ore', '#forge:ores/elementium');
     event.replaceInput({}, 'thermal:rubber', 'industrialforegoing:dryrubber');
     event.replaceInput({}, 'thermal:cinnabar', '#forge:gems/cinnabar');
     event.replaceInput({}, 'thermal:sulfur', '#forge:gems/sulfur');
@@ -22,7 +20,6 @@ onEvent('recipes', (event) => {
     event.replaceInput({}, 'thermal:coal_coke', '#forge:gems/coal_coke');
     event.replaceInput({}, 'rftoolsbase:dimensionalshard', '#forge:gems/dimensional');
     event.replaceInput({}, 'immersivepetroleum:bitumen', '#forge:gems/bitumen', true);
-    event.replaceInput({}, 'ars_nouveau:mana_gem', '#forge:gems/mana');
     event.replaceInput({}, 'immersiveengineering:slag', '#forge:slag');
     event.replaceInput({}, 'thermal:slag', '#forge:slag');
     event.replaceInput({}, 'simplefarming:cooked_egg', '#forge:cooked_eggs');
@@ -48,13 +45,6 @@ onEvent('recipes', (event) => {
     event.replaceInput({ mod: 'simplefarming' }, 'minecraft:cooked_chicken', '#forge:cooked_chicken');
     event.replaceInput({ id: '/simplefarming:\\w+burger/' }, 'minecraft:cooked_beef', 'farmersdelight:beef_patty');
     event.replaceInput({}, 'tconstruct:cobalt_nugget', '#forge:nuggets/cobalt');
-    event.replaceInput(
-        {
-            not: [{ type: 'ars_nouveau:glyph_recipe' }]
-        },
-        'minecraft:nether_brick',
-        '#forge:ingots/nether_brick'
-    );
     event.replaceInput({}, 'minecraft:nether_bricks', '#forge:netherbricks');
     event.replaceInput(
         {
@@ -95,15 +85,13 @@ onEvent('recipes', (event) => {
         'powah:photoelectric_pane'
     );
 
-    event.replaceInput({ mod: 'astralsorcery' }, 'astralsorcery:marble_raw', '#forge:stones/marble');
-
     event.replaceInput(
         { type: 'minecraft:crafting_shaped', output: 'minecraft:piston' },
         '#forge:cobblestone',
         '#quark:stone_tool_materials'
     );
 
-    ['quark:tallow', 'eidolon:tallow', 'occultism:tallow'].forEach((tallow) => {
+    ['quark:tallow'].forEach((tallow) => {
         event.replaceInput({}, tallow, '#forge:tallow');
     });
 
@@ -111,12 +99,6 @@ onEvent('recipes', (event) => {
         { id: 'dustrial_decor:iron_bar_trapdoor' },
         'minecraft:iron_bars',
         'dustrial_decor:barbed_iron_bars'
-    );
-
-    event.replaceInput(
-        { id: 'bloodmagic:alchemytable/basic_cutting_fluid' },
-        'minecraft:potion',
-        Item.of('minecraft:potion', { Potion: 'minecraft:water' })
     );
 
     event.replaceInput(
@@ -128,13 +110,6 @@ onEvent('recipes', (event) => {
     event.replaceInput({ id: 'fluxnetworks:fluxconfigurator' }, 'minecraft:ender_eye', 'powah:ender_core');
 
     event.replaceInput({ id: 'fluxnetworks:fluxpoint' }, 'minecraft:redstone_block', 'powah:ender_gate_nitro');
-    event.replaceInput(
-        {
-            not: [{ type: 'ars_nouveau:glyph_recipe' }]
-        },
-        'minecraft:crafting_table',
-        '#forge:workbenches'
-    );
 
     event.replaceInput({ id: 'minecraft:nether_bricks' }, '#forge:ingots/nether_brick', 'minecraft:nether_brick');
     event.replaceInput(
@@ -220,17 +195,10 @@ onEvent('recipes', (event) => {
             replace: 'iron',
             replaceWith: 'aluminum',
             items: [
-                'bloodmagic:soulforge',
                 'mininggadgets:upgrade_fortune_1',
                 'resourcefulbees:centrifuge_casing',
                 'xnet:antenna_base'
             ]
-        },
-        {
-            type: 'storage_blocks',
-            replace: 'iron',
-            replaceWith: 'brass',
-            items: ['ars_nouveau:glyph_press']
         },
         {
             type: 'storage_blocks',
@@ -245,7 +213,6 @@ onEvent('recipes', (event) => {
             items: [
                 'travel_anchors:travel_anchor',
                 'thermal:machine_press',
-                'bloodmagic:alchemicalreactionchamber',
                 'integrateddynamics:squeezer'
             ]
         },
@@ -284,18 +251,7 @@ onEvent('recipes', (event) => {
             replace: 'gold',
             replaceWith: 'brass',
             items: [
-                'ars_nouveau:arcane_core',
-                'ars_nouveau:crystallizer',
-                'ars_nouveau:volcanic_accumulator',
-                'pneumaticcraft:gun_ammo',
-                'ars_nouveau:marvelous_clay',
-                'ars_nouveau:ritual',
-                'ars_nouveau:sconce',
-                'ars_nouveau:basic_spell_turret',
-                'ars_nouveau:mycelial_sourcelink',
-                'ars_nouveau:vitalic_sourcelink',
-                'ars_nouveau:alchemical_sourcelink',
-                'ars_nouveau:mana_condenser'
+                'pneumaticcraft:gun_ammo'
             ]
         },
         {
@@ -303,11 +259,6 @@ onEvent('recipes', (event) => {
             replace: 'gold',
             replaceWith: 'bronze',
             items: [
-                'bloodmagic:alchemytable',
-                'bloodmagic:altar',
-                'bloodmagic:sacrificialdagger',
-                'bloodmagic:experiencebook',
-                'bloodmagic:soulforge',
                 'pneumaticcraft:medium_tank',
                 'pneumaticcraft:minigun',
                 'pneumaticcraft:pressure_gauge',
@@ -345,7 +296,7 @@ onEvent('recipes', (event) => {
             type: 'ingots',
             replace: 'gold',
             replaceWith: 'silver',
-            items: ['torchmaster:feral_flare_lantern', 'mekanism:teleportation_core', 'botania:mana_spreader']
+            items: ['torchmaster:feral_flare_lantern', 'mekanism:teleportation_core']
         },
         {
             type: 'ingots',
@@ -384,12 +335,6 @@ onEvent('recipes', (event) => {
         {
             type: 'ingots',
             replace: 'iron',
-            replaceWith: 'brass',
-            items: ['ars_nouveau:mana_condenser', 'ars_nouveau:enchanting_apparatus']
-        },
-        {
-            type: 'ingots',
-            replace: 'iron',
             replaceWith: 'copper',
             items: [
                 'shrink:shrinking_device',
@@ -408,7 +353,7 @@ onEvent('recipes', (event) => {
             type: 'ingots',
             replace: 'iron',
             replaceWith: 'tin',
-            items: ['bloodmagic:soulsnare', 'modularrouters:bulk_item_filter', 'chisel:auto_chisel']
+            items: ['modularrouters:bulk_item_filter', 'chisel:auto_chisel']
         },
         {
             type: 'ingots',
@@ -445,7 +390,7 @@ onEvent('recipes', (event) => {
             type: 'nuggets',
             replace: 'gold',
             replaceWith: 'silver',
-            items: ['botania:spark', 'chisel:hitech_chisel']
+            items: ['chisel:hitech_chisel']
         }
     ];
 

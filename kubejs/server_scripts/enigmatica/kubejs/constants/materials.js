@@ -249,12 +249,6 @@ const gemProcessingProperties = {
         immersiveengineering: {
             count: 6
         },
-        occultism: {
-            count: 6
-        },
-        bloodmagic: {
-            count: 6
-        },
         pedestals: {
             count: 6
         },
@@ -281,12 +275,6 @@ const gemProcessingProperties = {
             count: 4,
             secondaryChance: 0.15
         },
-        occultism: {
-            count: 4
-        },
-        bloodmagic: {
-            count: 4
-        },
         pedestals: {
             count: 4
         },
@@ -311,12 +299,6 @@ const gemProcessingProperties = {
         immersiveengineering: {
             count: 2
         },
-        occultism: {
-            count: 2
-        },
-        bloodmagic: {
-            count: 2
-        },
         pedestals: {
             count: 2
         },
@@ -339,12 +321,6 @@ const gemProcessingProperties = {
             secondaryChance: 0.25
         },
         immersiveengineering: {
-            count: 4
-        },
-        occultism: {
-            count: 4
-        },
-        bloodmagic: {
             count: 4
         },
         pedestals: {
@@ -373,12 +349,6 @@ const gemProcessingProperties = {
             count: 9,
             secondaryChance: 0.2
         },
-        occultism: {
-            count: 9
-        },
-        bloodmagic: {
-            count: 9
-        },
         pedestals: {
             count: 9
         },
@@ -405,12 +375,6 @@ const gemProcessingProperties = {
             count: 3,
             secondaryChance: 0.25
         },
-        occultism: {
-            count: 3
-        },
-        bloodmagic: {
-            count: 3
-        },
         pedestals: {
             count: 3
         },
@@ -433,12 +397,6 @@ const gemProcessingProperties = {
             secondaryChance: 0.25
         },
         immersiveengineering: {
-            count: 6
-        },
-        occultism: {
-            count: 6
-        },
-        bloodmagic: {
             count: 6
         },
         pedestals: {
@@ -465,12 +423,6 @@ const gemProcessingProperties = {
         immersiveengineering: {
             count: 12
         },
-        occultism: {
-            count: 12
-        },
-        bloodmagic: {
-            count: 12
-        },
         pedestals: {
             count: 12
         },
@@ -493,12 +445,6 @@ const gemProcessingProperties = {
             secondaryChance: 0.25
         },
         immersiveengineering: {
-            count: 6
-        },
-        occultism: {
-            count: 6
-        },
-        bloodmagic: {
             count: 6
         },
         pedestals: {
@@ -525,12 +471,6 @@ const gemProcessingProperties = {
         immersiveengineering: {
             count: 8
         },
-        occultism: {
-            count: 8
-        },
-        bloodmagic: {
-            count: 8
-        },
         pedestals: {
             count: 8
         },
@@ -553,12 +493,6 @@ const gemProcessingProperties = {
             secondaryChance: 0.25
         },
         immersiveengineering: {
-            count: 3
-        },
-        occultism: {
-            count: 3
-        },
-        bloodmagic: {
             count: 3
         },
         pedestals: {
@@ -585,12 +519,6 @@ const gemProcessingProperties = {
         immersiveengineering: {
             count: 3
         },
-        occultism: {
-            count: 3
-        },
-        bloodmagic: {
-            count: 3
-        },
         pedestals: {
             count: 3
         },
@@ -613,12 +541,6 @@ const gemProcessingProperties = {
             secondaryChance: 0.25
         },
         immersiveengineering: {
-            count: 3
-        },
-        occultism: {
-            count: 3
-        },
-        bloodmagic: {
             count: 3
         },
         pedestals: {
@@ -645,12 +567,6 @@ const gemProcessingProperties = {
         immersiveengineering: {
             count: 4
         },
-        occultism: {
-            count: 4
-        },
-        bloodmagic: {
-            count: 4
-        },
         pedestals: {
             count: 4
         },
@@ -675,12 +591,6 @@ const gemProcessingProperties = {
         immersiveengineering: {
             count: 4
         },
-        occultism: {
-            count: 4
-        },
-        bloodmagic: {
-            count: 4
-        },
         pedestals: {
             count: 4
         },
@@ -703,12 +613,6 @@ const gemProcessingProperties = {
             secondaryChance: 0.5
         },
         immersiveengineering: {
-            count: 4
-        },
-        occultism: {
-            count: 4
-        },
-        bloodmagic: {
             count: 4
         },
         pedestals: {

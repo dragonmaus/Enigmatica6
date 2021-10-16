@@ -9,6 +9,6 @@ gatekeeper_emerald_count = 8
 #
 # A list of mods that are allowed to generate features in our dimensions.
 # Default: []
-# Example: ["minecraft", "blue_skies", "botania"]
+# Example: ["minecraft", "blue_skies"]
 allowed_mods_for_feature_gen = []
 

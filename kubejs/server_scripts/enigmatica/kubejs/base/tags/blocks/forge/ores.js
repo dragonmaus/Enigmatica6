@@ -6,7 +6,6 @@ onEvent('block.tags', (event) => {
         'betterendforge:ender_ore',
         'betterendforge:amber_ore',
         'minecraft:ancient_debris',
-        'occultism:iesnium_ore',
         'byg:cryptic_redstone_ore',
         'betterendforge:thallasium_ore'
     ]);
@@ -25,6 +24,4 @@ onEvent('block.tags', (event) => {
     event.add('forge:ores/amber', 'betterendforge:amber_ore');
     event.add('forge:ores/redstone', 'byg:cryptic_redstone_ore');
     event.get('forge:ores/thallasium').add('betterendforge:thallasium_ore');
-    event.get('forge:ores/starmetal').add('astralsorcery:starmetal_ore');
-    event.get('forge:ores/aquamarine').add('astralsorcery:aquamarine_sand_ore');
 });

@@ -124,26 +124,6 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
-                { item: 'tconstruct:ichor_slime_crystal', count: 1 },
-                { item: 'refinedstorage:basic_processor', count: 1 },
-                { item: 'botania:corporea_spark', count: 1 }
-            ],
-            pressure: 2.0,
-            results: [{ item: 'refinedstorage:destruction_core', count: 1 }],
-            id: 'refinedstorage:destruction_core'
-        },
-        {
-            inputs: [
-                { item: 'tconstruct:sky_slime_crystal', count: 1 },
-                { item: 'refinedstorage:basic_processor', count: 1 },
-                { item: 'botania:corporea_spark', count: 1 }
-            ],
-            pressure: 2.0,
-            results: [{ item: 'refinedstorage:construction_core', count: 1 }],
-            id: 'refinedstorage:construction_core'
-        },
-        {
-            inputs: [
                 { tag: 'forge:coins/tin', count: 1 },
                 { tag: 'forge:gems/silicon', count: 1 },
                 { item: 'refinedstorage:processor_binding', count: 1 },

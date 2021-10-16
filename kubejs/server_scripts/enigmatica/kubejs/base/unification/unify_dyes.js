@@ -1,7 +1,6 @@
 //priority: 900
 onEvent('recipes', (event) => {
     dyeSources.forEach((recipe) => {
-        botania_dye_pestle_mortar(event, recipe);
         create_dye_milling(event, recipe);
         immersiveengineering_dye_crusher(event, recipe);
         //integrateddynamics_dye_squeezing(event, recipe);
@@ -10,35 +9,8 @@ onEvent('recipes', (event) => {
         thermal_dye_centrifuge(event, recipe);
         atum_quern_milling(event, recipe);
         shapeless_dye_crafting(event, recipe);
-        occultism_dye_crushing(event, recipe);
     });
 });
-
-//dye normalization functions
-function botania_dye_pestle_mortar(event, recipe) {
-    if (recipe.type == 'petal') {
-        return;
-    }
-
-    if (recipe.input == 'minecraft:bone') {
-        return;
-    }
-
-    var baseCount = 2,
-        multiplier = 1;
-    if (recipe.type == 'large') {
-        multiplier = 2;
-    }
-    if (recipe.primary == 'minecraft:bone_meal') {
-        multiplier = 2;
-    }
-
-    var count = baseCount * multiplier,
-        output = Item.of(recipe.primary, count),
-        inputs = [recipe.input, 'botania:pestle_and_mortar'];
-
-    event.shapeless(output, inputs);
-}
 
 function create_dye_milling(event, recipe) {
     var baseCount = 2,
@@ -195,26 +167,4 @@ function shapeless_dye_crafting(event, recipe) {
         inputs = [recipe.input];
 
     event.shapeless(output, inputs);
-}
-function occultism_dye_crushing(event, recipe) {
-    if (recipe.input == 'minecraft:bone') {
-        return;
-    }
-
-    var baseCount = 2,
-        multiplier = 1;
-    if (recipe.type == 'large') {
-        multiplier = 2;
-    }
-
-    var count = baseCount * multiplier,
-        output = recipe.primary,
-        input = recipe.input;
-
-    event.custom({
-        type: 'occultism:crushing',
-        ingredient: { item: input },
-        result: { item: output, count: count },
-        crushing_time: 50
-    });
 }

@@ -391,7 +391,6 @@ onEvent('server.datapack.low_priority', (event) => {
 { item: 'emendatusenigmatica:coal_chunk' },
 { item: 'atum:nebu_ore' },
 { item: 'atum:relic_ore' },
-{ item: 'astralsorcery:aquamarine_sand_ore' },
 { item: 'minecrafancient_debris' },
 { item: 'betterendforge:thallasium_ore' },
 { item: 'betterendforge:amber_ore' },

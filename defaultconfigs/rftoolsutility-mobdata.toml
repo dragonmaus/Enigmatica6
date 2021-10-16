@@ -1111,31 +1111,6 @@
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-	[mobdata.botania]
-
-		[mobdata.botania.doppleganger]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-	[mobdata.ars_nouveau]
-
-		[mobdata.ars_nouveau.sylph]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.ars_nouveau.carbuncle]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
 	[mobdata.losttrinkets]
 
 		[mobdata.losttrinkets.dark_vex]

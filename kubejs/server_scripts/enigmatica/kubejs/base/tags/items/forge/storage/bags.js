@@ -1,8 +1,5 @@
 onEvent('item.tags', (event) => {
     var items = [
-        'botania:bauble_box',
-        'botania:ender_hand',
-        'botania:flower_bag',
         'sophisticatedbackpacks:backpack',
         'industrialforegoing:infinity_backpack'
     ];

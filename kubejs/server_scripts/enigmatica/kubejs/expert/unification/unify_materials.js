@@ -190,11 +190,7 @@ onEvent('recipes', (event) => {
         }
 
         var secondary_fulminated_cluster,
-            infusing_input = `#forge:ores/${material}`,
-            zapping_input = `#enigmatica:mana_clusters/${material}`,
-            crumbling_input = `#enigmatica:fulminated_clusters/${material}`,
-            freezing_input = `#enigmatica:levigated_materials/${material}`,
-            fusing_input = `#enigmatica:crystalline_slivers/${material}`;
+            zapping_input = `#enigmatica:mana_clusters/${material}`;
 
         try {
             secondary_fulminated_cluster = getPreferredItemInTag(
@@ -206,16 +202,6 @@ onEvent('recipes', (event) => {
             ).id;
         }
 
-        // Step One: Infuse!
-        event.custom({
-            type: 'botania:mana_infusion',
-            input: Ingredient.of(infusing_input).toJson(),
-            output: { item: mana_cluster, count: 1 },
-            catalyst: { type: 'block', block: 'naturesaura:generator_limit_remover' },
-            mana: 10000
-        });
-
-        // Step Two: Zap!
         event.custom({
             type: 'interactio:item_lightning',
             inputs: [Ingredient.of(zapping_input).toJson()],
@@ -228,56 +214,6 @@ onEvent('recipes', (event) => {
                 empty_weight: 50,
                 rolls: 20
             }
-        });
-
-        // Step Three: Crumble!
-        event.custom({
-            type: 'naturesaura:altar',
-            input: Ingredient.of(crumbling_input).toJson(),
-            output: Ingredient.of(levigated_material).toJson(),
-            catalyst: Ingredient.of('naturesaura:crushing_catalyst').toJson(),
-            aura_type: 'naturesaura:overworld',
-            aura: 15000,
-            time: 80
-        });
-
-        // Step Four: Freeze!
-        event.custom({
-            type: 'interactio:item_fluid_transform',
-            inputs: [
-                Ingredient.of(freezing_input).toJson(),
-                { tag: 'botania:runes/winter', count: 1, return_chance: 1.0 }
-            ],
-            output: {
-                entries: [
-                    { result: Ingredient.of(crystalline_sliver).toJson(), weight: 75 },
-                    { result: Ingredient.of('bloodmagic:corrupted_tinydust').toJson(), weight: 25 }
-                ],
-                empty_weight: 0,
-                rolls: 20
-            },
-            fluid: { fluid: 'astralsorcery:liquid_starlight' },
-            consume_fluid: 0.15
-        });
-
-        // Step Five: Fuse!
-        event.custom({
-            type: 'botania:runic_altar',
-            output: { item: ingot, count: 1 },
-            mana: 25000,
-            ingredients: [
-                Ingredient.of(fusing_input).toJson(),
-                Ingredient.of(fusing_input).toJson(),
-                Ingredient.of(fusing_input).toJson(),
-                Ingredient.of(fusing_input).toJson(),
-                Ingredient.of(fusing_input).toJson(),
-                Ingredient.of(fusing_input).toJson(),
-                Ingredient.of(fusing_input).toJson(),
-                Ingredient.of(fusing_input).toJson(),
-                Ingredient.of(fusing_input).toJson(),
-                Ingredient.of('#forge:dusts/mana').toJson(),
-                Ingredient.of(`#botania:runes/nidavellir`).toJson()
-            ]
         });
     }
 });

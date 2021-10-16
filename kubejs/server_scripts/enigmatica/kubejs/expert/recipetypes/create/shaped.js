@@ -47,15 +47,6 @@ onEvent('recipes', (event) => {
             id: 'create:crafting/kinetics/white_sail'
         },
         {
-            output: Item.of('create:brass_casing', 4),
-            pattern: ['ABA', 'BBB', 'ABA'],
-            key: {
-                A: '#forge:plates/brass',
-                B: 'eidolon:polished_planks'
-            },
-            id: 'create:crafting/materials/brass_casing'
-        },
-        {
             output: Item.of('create:encased_chain_drive', 2),
             pattern: [' A ', 'BCB', ' A '],
             key: {

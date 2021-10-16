@@ -41,10 +41,6 @@ onEvent('recipes', (event) => {
             output: Item.of('emendatusenigmatica:silicon_gem')
         },
         {
-            input: '#forge:end_stones',
-            output: Item.of('occultism:crushed_end_stone', 4)
-        },
-        {
             input: 'byg:raw_quartz_block',
             output: Item.of('byg:quartzite_sand', 2)
         },

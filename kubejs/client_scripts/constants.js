@@ -68,7 +68,6 @@ const generatableStone = [
     'quark:marble',
     'quark:permafrost',
     'quark:slate',
-    'astralsorcery:marble_raw',
     'create:dark_scoria',
     'create:scoria',
     'create:gabbro',
@@ -100,19 +99,6 @@ const colors = [
 ];
 
 const itemsToHide = [
-    'aiotbotania:livingwood_shears',
-    'aiotbotania:livingrock_shears',
-
-    'ars_nouveau:arcane_brick',
-    'ars_nouveau:arcane_ore',
-    'ars_nouveau:mana_gem_block',
-
-    'bloodmagic:coalsand',
-    'bloodmagic:saltpeter',
-    'bloodmagic:sulfur',
-    'bloodmagic:ironsand',
-    'bloodmagic:goldsand',
-
     'byg:budding_ametrine_ore',
     'byg:anthracite_ore',
     'byg:lignite_ore',
@@ -126,8 +112,6 @@ const itemsToHide = [
     'create:honey_bucket',
     'create:copper_ore',
     'create:zinc_ore',
-
-    'eidolon:tallow',
 
     'emendatusenigmatica:sulfur_ore',
     'emendatusenigmatica:cinnabar_ore',
@@ -343,7 +327,6 @@ const itemsToHide = [
     /create:\w+_nugget/,
     /create:\w+_ingot/,
     /immersiveposts:stick_/,
-    /eidolon:\w+_ore/,
     /byg:pendorite/,
     /byg:ametrine/,
     /emendatusenigmatica:\w+certus/,
@@ -386,86 +369,6 @@ const recipesToHide = [
     {
         category: 'minecraft:crafting',
         recipes_by_id: [
-            'apotheosis:hellshelf',
-            'apotheosis:seashelf',
-            'apotheosis:endshelf',
-
-            'ars_nouveau:arcane_stone',
-            'ars_nouveau:crystallizer',
-            'ars_nouveau:potion_melder',
-            'ars_nouveau:volcanic_accumulator',
-            'ars_nouveau:mana_condenser',
-            'ars_nouveau:mycelial_sourcelink',
-            'ars_nouveau:vitalic_sourcelink',
-            'ars_nouveau:alchemical_sourcelink',
-            'ars_nouveau:novice_hood',
-            'ars_nouveau:novice_robes',
-            'ars_nouveau:novice_leggings',
-            'ars_nouveau:novice_boots',
-            'ars_nouveau:apprentice_hood',
-            'ars_nouveau:apprentice_robes',
-            'ars_nouveau:apprentice_leggings',
-            'ars_nouveau:apprentice_boots',
-            'ars_nouveau:archmage_hood',
-            'ars_nouveau:archmage_robes',
-            'ars_nouveau:archmage_leggings',
-            'ars_nouveau:archmage_boots',
-
-            'bloodmagic:soul_forge',
-            'bloodmagic:ritual_diviner_0',
-            'bloodmagic:blood_rune_blank',
-            'bloodmagic:blood_rune_speed',
-            'bloodmagic:blood_rune_sacrifice',
-            'bloodmagic:blood_rune_self_sacrifice',
-            'bloodmagic:blood_rune_displacement',
-            'bloodmagic:blood_rune_capacity',
-            'bloodmagic:blood_rune_aug_capacity',
-            'bloodmagic:blood_rune_orb',
-            'bloodmagic:blood_rune_acceleration',
-            'bloodmagic:blood_rune_charging',
-
-            'botania:terrasteel_helmet',
-            'botania:terrasteel_chestplate',
-            'botania:terrasteel_leggings',
-            'botania:terrasteel_boots',
-            'botania:spark',
-            'botania:mana_pylon',
-            'botania:natura_pylon',
-            'botania:apothecary_default',
-            'botania:terra_plate',
-            'botania:alfheim_portal',
-            'botania:mana_ring',
-            'botania:gaia_ingot',
-            'botania:gaia_pylon',
-            'botania:mining_ring',
-            'botania:dodge_ring',
-            'botania:swap_ring',
-            'botania:water_ring',
-            'botania:magnet_ring',
-            'botania:aura_ring',
-            'botania:pixie_ring',
-            'botania:reach_ring',
-            'botania:flighttiara_0',
-            'botania:runic_altar',
-            'botania:mana_spreader',
-            'botania:elven_spreader',
-            'botania:gaia_spreader',
-
-            'mythicbotany:wither_aconite_floating',
-            'mythicbotany:raindeletia_floating',
-            'mythicbotany:modified_gaia_pylon_with_alfsteel',
-            'mythicbotany:alfsteel_pylon',
-            'mythicbotany:mana_infuser',
-            'mythicbotany:fire_ring',
-            'mythicbotany:ice_ring',
-            'mythicbotany:mana_collector',
-
-            'naturesaura:calling_spirit',
-            'naturesaura:animal_spawner',
-            'naturesaura:gold_fiber',
-            'naturesaura:gold_brick',
-            'naturesaura:generator_limit_remover',
-
             'pneumaticcraft:air_compressor',
             'pneumaticcraft:advanced_air_compressor',
             'pneumaticcraft:pressure_chamber_valve_x1',
@@ -480,36 +383,6 @@ const recipesToHide = [
             'pneumaticcraft:assembly_platform',
             'pneumaticcraft:aerial_interface',
             'pneumaticcraft:spawner_extractor'
-        ]
-    },
-    {
-        category: 'ars_nouveau:apparatus',
-        recipes_by_id: ['ars_nouveau:jar_of_light', 'ars_nouveau:void_jar']
-    },
-    {
-        category: 'astralsorcery:altar_attunement',
-        recipes_by_id: ['astralsorcery:altar/attunement_altar']
-    },
-    {
-        category: 'botania:petals',
-        recipes_by_id: ['mythicbotany:petal_apothecary/wither_aconite', 'mythicbotany:petal_apothecary/raindeletia']
-    },
-    {
-        category: 'botania:mana_pools',
-        recipes_by_id: ['botania:mana_infusion/mana_powder_dust', 'botania:mana_infusion/mana_powder_dye']
-    },
-    {
-        category: 'bloodmagic:alchemytable',
-        recipes_by_id: ['bloodmagic:alchemytable/basic_cutting_fluid_sigil']
-    },
-    {
-        category: 'bloodmagic:soulforge',
-        recipes_by_id: [
-            'bloodmagic:soulforge/sentientsword',
-            'bloodmagic:soulforge/sentientaxe',
-            'bloodmagic:soulforge/sentientpickaxe',
-            'bloodmagic:soulforge/sentientshovel',
-            'bloodmagic:soulforge/sentientscythe'
         ]
     }
 ];
@@ -545,10 +418,6 @@ const disabledItems = [
 
     'blockcarpentry:frame_chest',
     'blockcarpentry:illusion_chest',
-
-    'bloodmagic:sand_netherite',
-    'bloodmagic:gravel_netherite_scrap',
-    'bloodmagic:fragment_netherite_scrap',
 
     'byg:ametrine_block',
     'byg:ametrine_boots',
@@ -612,11 +481,6 @@ const disabledItems = [
     'mekanism:sawdust',
     'mekanism:dust_lapis_lazuli',
     'mekanism:dust_lithium',
-
-    'mythicbotany:raindeletia',
-    'mythicbotany:raindeletia_floating',
-    'mythicbotany:wither_aconite',
-    'mythicbotany:wither_aconite_floating',
 
     'pedestals:dustflour',
 

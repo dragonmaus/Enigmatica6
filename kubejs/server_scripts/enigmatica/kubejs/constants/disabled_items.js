@@ -31,10 +31,6 @@ const disabledItems = [
     'blockcarpentry:frame_chest',
     'blockcarpentry:illusion_chest',
 
-    'bloodmagic:sand_netherite',
-    'bloodmagic:gravel_netherite_scrap',
-    'bloodmagic:fragment_netherite_scrap',
-
     'byg:ametrine_block',
     'byg:ametrine_boots',
     'byg:ametrine_chestplate',
@@ -87,11 +83,6 @@ const disabledItems = [
     'mekanism:sawdust',
     'mekanism:dust_lapis_lazuli',
     'mekanism:dust_lithium',
-
-    'mythicbotany:raindeletia',
-    'mythicbotany:raindeletia_floating',
-    'mythicbotany:wither_aconite',
-    'mythicbotany:wither_aconite_floating',
 
     'pedestals:dustflour',
 

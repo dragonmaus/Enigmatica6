@@ -95,12 +95,6 @@ onEvent('recipes', (event) => {
                 experience: 0.2
             },
             {
-                input: '#forge:end_stones',
-                outputs: [Item.of('occultism:crushed_end_stone', 4)],
-                id: 'thermal:machine/pulverizer/pulverizer_end_stone',
-                experience: 0.2
-            },
-            {
                 input: '#forge:obsidian',
                 outputs: [Item.of('emendatusenigmatica:obsidian_dust', 4)],
                 experience: 0.2,

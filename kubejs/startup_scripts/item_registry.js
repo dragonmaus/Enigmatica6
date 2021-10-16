@@ -29,20 +29,6 @@ onEvent('item.registry', (event) => {
         'amadron_survey_tools'
     ];
 
-    const ritualDummies = [
-        'craft_spirit_heat_exchanger',
-        'summon_pharaoh',
-        'craft_magical_feathers',
-        'craft_magicfeather',
-        'craft_soulsword',
-        'craft_soulaxe',
-        'craft_soulpickaxe',
-        'craft_soulshovel',
-        'craft_soulscythe',
-        'craft_attunement_altar',
-        'craft_mana_collector'
-    ];
-
     const reusableItemTextures = [
         { name: 'machine_speed_augment_mk2', texture: 'machine_speed_augment' },
         { name: 'machine_speed_augment_mk3', texture: 'machine_speed_augment' },
@@ -135,10 +121,6 @@ onEvent('item.registry', (event) => {
 
     generalItems.forEach((item) => {
         event.create(item).group('KubeJS').texture(`kubejs:item/${item}`);
-    });
-
-    ritualDummies.forEach((item) => {
-        event.create(item).type('occultism:ritual_dummy').group('KubeJS').texture('kubejs:item/pentacle');
     });
 
     reusableItemTextures.forEach((item) => {

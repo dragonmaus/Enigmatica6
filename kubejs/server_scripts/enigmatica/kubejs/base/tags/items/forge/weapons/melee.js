@@ -1,6 +1,5 @@
 onEvent('item.tags', (event) => {
     var items = [
-        'botania:ender_dagger',
         'byg:pendorite_battleaxe',
         'immersiveengineering:sword_steel',
         'industrialforegoing:infinity_hammer',
@@ -10,10 +9,7 @@ onEvent('item.tags', (event) => {
         'wstweaks:blaze_blade',
         'wstweaks:lava_blade',
         'undergarden:cloggrum_battleaxe',
-        'bloodmagic:soulsword',
-        'bloodmagic:soulscythe',
         'meetyourfight:depth_star',
-        'eidolon:reaper_scythe',
         'atum:shus_exile',
         'atum:seths_sting',
         'atum:nuits_quarter',

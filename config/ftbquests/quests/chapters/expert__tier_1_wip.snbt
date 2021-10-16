@@ -405,23 +405,6 @@
 			}]
 		}
 		{
-			title: "Dev Notes"
-			x: 2.5d
-			y: 0.0d
-			description: ["The quests are placed like this to give an easy overview, it's not actually going to look like this in the end :P"]
-			dependencies: ["1D574D041D9164AD"]
-			id: "72987F9393410FCA"
-			tasks: [{
-				id: "6FC71CD83BC84D83"
-				type: "item"
-				item: {
-					id: "botania:cosmetic_questgiver_mark"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
 			x: 4.0d
 			y: 5.0d
 			dependencies: ["0616453B4BBEFB11"]

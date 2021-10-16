@@ -23,8 +23,6 @@ onEvent('item.tags', (event) => {
     ];
     var exceptions = [
         'aquaculture:treasure_chest',
-        'naturesaura:sky_chest',
-        'naturesaura:infused_iron_chest',
         'immersiveengineering:armor_steel_chest',
         'immersiveengineering:armor_faraday_chest',
         'atum:mummy_chest',
