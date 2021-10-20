@@ -10,17 +10,6 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{\"bow/riser\":\"bow/extended_rest\",RepairCost:0,\"bow/long_stave_material\":\"long_stave/elementium\",display:{Name:'{\"text\":\"Stardust Bow\"}'},AS_Amulet_Holder:[890568276,-155696308,-1076725423,-1360458671],\"bow/extended_rest_material\":\"extended_rest/refined_obsidian\",\"bow/stave\":\"bow/long_stave\",honing_progress:132,HideFlags:1,\"bow/stave:stave_grip/wrap_leather\":1,\"bow/stave/settle_progress\":723,\"bow/basic_string_material\":\"basic_string/string\",\"bow/string\":\"bow/basic_string\",id:\"9d01e581-9cf7-46d5-b35b-7a121530ef08\",Damage:0}"
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "tetra:modular_bow",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
                             "tag": "{\"bow/riser\":\"bow/extended_rest\",RepairCost:0,Enchantments:[{lvl:2,id:\"ensorcellation:quick_draw\"}],display:{Name:'{\"text\":\"Magewrath\"}'},AS_Amulet_Holder:[890568276,-155696308,-1076725423,-1360458671],\"bow/straight_stave_material\":\"straight_stave/steel\",\"bow/extended_rest_material\":\"extended_rest/gold\",\"bow/stave\":\"bow/straight_stave\",honing_progress:144,\"quark:RuneAttached\":1,HideFlags:1,\"quark:RuneColor\":{id:\"quark:black_rune\",Count:1},\"bow/basic_string_material\":\"basic_string/hemp\",\"bow/stave:enchantment/ensorcellation_quick_draw\":2,\"bow/string\":\"bow/basic_string\",id:\"8c7d2f8b-81fd-4df8-affd-b6612454ac0e\",Damage:0}"
                         }
                     ]
@@ -65,17 +54,6 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{RepairCost:0,\"double/handle:basic_handle/wrap_leather\":1,display:{Name:'{\"text\":\"Heartseeker\"}'},\"double/binding\":\"double/binding\",\"double/basic_handle_material\":\"basic_handle/bronze\",\"double/butt_right_material\":\"butt/elementium\",\"double/binding_material\":\"double_binding/leather\",honing_progress:357,\"double/basic_axe_left_material\":\"basic_axe/elementium\",\"double/handle\":\"double/basic_handle\",HideFlags:1,\"double/head_left\":\"double/basic_axe_left\",\"double/head_right\":\"double/butt_right\",\"double/handle:workable\":1,id:\"ff386023-cab6-42c0-b811-8f5fbd974e71\",Damage:0}"
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "tetra:modular_double",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
                             "tag": "{RepairCost:0,\"double/handle:basic_handle/wrap_leather\":1,display:{Name:'{\"text\":\"The Crow Bar:tm:\"}'},\"double/binding\":\"double/binding\",\"double/basic_handle_material\":\"basic_handle/forged_beam\",\"double/claw_left_material\":\"claw/compressed_iron\",\"double/binding_material\":\"double_binding/bolt\",\"double/butt_right_material\":\"butt/compressed_iron\",honing_progress:420,\"double/handle\":\"double/basic_handle\",HideFlags:1,\"double/head_left\":\"double/claw_left\",\"double/head_right\":\"double/butt_right\",id:\"4b53fd6c-b49f-4964-b2d2-ea81b0591c35\",Damage:0}"
                         }
                     ]
@@ -99,17 +77,6 @@
                         {
                             "function": "set_nbt",
                             "tag": "{RepairCost:0,\"double/adze_right_material\":\"adze/energized_steel\",\"double/handle:basic_handle/wrap_leather\":1,display:{Name:'{\"text\":\"Digmaster 5000\"}'},\"double/binding\":\"double/binding\",\"double/basic_handle_material\":\"basic_handle/forged_beam\",\"double/binding_material\":\"double_binding/leather\",honing_progress:490,\"double/handle\":\"double/basic_handle\",HideFlags:1,\"double/head_left\":\"double/basic_pickaxe_left\",\"double/head_right\":\"double/adze_right\",id:\"52f59607-4be6-4854-8396-6554afe8488f\",Damage:0,\"double/basic_pickaxe_left_material\":\"basic_pickaxe/energized_steel\"}"
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "tetra:modular_double",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{\"double/basic_axe_right_material\":\"basic_axe/steel\",RepairCost:0,\"double/handle:basic_handle/wrap_leather\":1,display:{Name:'{\"text\":\"Rune Master\"}'},Enchantments:[{lvl:3,id:\"minecraft:looting\"}],\"double/binding\":\"double/binding\",\"double/basic_handle_material\":\"basic_handle/alfsteel\",\"double/binding_material\":\"double_binding/bolt\",\"double/basic_axe_left_material\":\"basic_axe/steel\",honing_progress:490,\"double/handle\":\"double/basic_handle\",\"quark:RuneAttached\":1,\"double/head_left\":\"double/basic_axe_left\",HideFlags:1,\"double/head_right\":\"double/basic_axe_right\",\"quark:RuneColor\":{id:\"quark:black_rune\",Count:1},id:\"c4b17fff-740e-4bec-8a28-7a18e4aca8d3\",\"double/head_left:enchantment/looting\":3,Damage:0}"
                         }
                     ]
                 },

@@ -67,14 +67,7 @@ const materialsToUnify = [
     'thallasium',
     'nebu',
     'aeternium',
-    'alfsteel',
-    'elementium',
-    'gaia_spirit',
-    'infused_iron',
-    'manasteel',
-    'sky',
     'terminite',
-    'terrasteel',
     'energized_steel',
     'blazing',
     'niotic',
@@ -131,14 +124,7 @@ const meltingPoints = {
     bitumen: { temp: 115 },
     apatite: { temp: 450 },
     aeternium: { temp: 1250 },
-    alfsteel: { temp: 1450 },
-    elementium: { temp: 875 },
-    gaia_spirit: { temp: 1350 },
-    infused_iron: { temp: 850 },
-    manasteel: { temp: 900 },
-    sky: { temp: 950 },
     terminite: { temp: 840 },
-    terrasteel: { temp: 975 },
     energized_steel: { temp: 875 },
     blazing: { temp: 950 },
     niotic: { temp: 1250 },
@@ -223,10 +209,6 @@ const oreProcessingSecondaries = {
     iesnium: {
         secondary: 'silver',
         createProcessingTime: 500
-    },
-    elementium: {
-        secondary: 'elementium',
-        createProcessingTime: 400
     }
 };
 

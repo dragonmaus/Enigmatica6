@@ -33,26 +33,6 @@
             },
             "moduleKey": "double/basic_hammer",
             "moduleVariant": "basic_hammer/starmetal"
-        },
-        {
-            "material": {
-                "tag": "forge:ingots/sky"
-            },
-            "requiredTools": {
-                "hammer": 7
-            },
-            "moduleKey": "double/basic_hammer",
-            "moduleVariant": "basic_hammer/sky"
-        },
-        {
-            "material": {
-                "tag": "forge:ingots/alfsteel"
-            },
-            "requiredTools": {
-                "hammer": 7
-            },
-            "moduleKey": "double/basic_hammer",
-            "moduleVariant": "basic_hammer/alfsteel"
         }
     ]
 }

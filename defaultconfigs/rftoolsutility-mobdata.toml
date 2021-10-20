@@ -608,20 +608,6 @@
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.resourcefulbees.elementium_bee]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.resourcefulbees.manasteel_bee]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
 		[mobdata.resourcefulbees.osmium_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
@@ -685,21 +671,7 @@
 			spawnRf = 50000
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
-		[mobdata.resourcefulbees.infused_iron_bee]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
 		[mobdata.resourcefulbees.clay_bee]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.resourcefulbees.terrasteel_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0
@@ -721,13 +693,6 @@
 			item3 = "1.0:{'item':'minecraft:bedrock'}"
 
 		[mobdata.resourcefulbees.rgbee_bee]
-			item2 = "1.0:{'item':'minecraft:bedrock'}"
-			item1 = "1.0:{'item':'minecraft:bedrock'}"
-			#Range: > 0
-			spawnRf = 50000
-			item3 = "1.0:{'item':'minecraft:bedrock'}"
-
-		[mobdata.resourcefulbees.sky_bee]
 			item2 = "1.0:{'item':'minecraft:bedrock'}"
 			item1 = "1.0:{'item':'minecraft:bedrock'}"
 			#Range: > 0

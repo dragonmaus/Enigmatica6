@@ -35,15 +35,6 @@ onEvent('item.tags', (event) => {
             { material: 'netherite' },
             { material: 'wither' }
         ]
-        // special: [
-        //     { material: 'manasteel' },
-        //     { material: 'elementium' },
-        //     { material: 'terrasteel' },
-
-        //     { material: 'infused_iron' },
-        //     { material: 'tainted_gold' },
-        //     { material: 'sky' }
-        // ]
     };
     ['honeycomb', 'honeycomb_block'].forEach((honeyComb) => {
         event

@@ -39,10 +39,9 @@ onEvent('recipes', (event) => {
             },
             {
                 ores: [
-                    { chance: 0.45, output: { item: 'minecraft:prismarine' } },
-                    { chance: 0.05, output: { item: 'quark:elder_prismarine' } },
-                    { chance: 0.25, output: { tag: 'forge:chunks/emerald' } },
-                    { chance: 0.25, output: { tag: 'forge:gems/aquamarine' } }
+                    { chance: 0.6, output: { item: 'minecraft:prismarine' } },
+                    { chance: 0.07, output: { item: 'quark:elder_prismarine' } },
+                    { chance: 0.33, output: { tag: 'forge:chunks/emerald' } },
                 ],
                 dimensions: ['minecraft:overworld', 'undergarden:undergarden', 'atum:atum'],
                 weight: 5,

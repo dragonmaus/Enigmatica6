@@ -95,7 +95,6 @@ const combVariants = [
     'industrious',
     'bloody',
     'infused',
-    'sky',
     'tainted',
     'enderslime',
     'ichor',

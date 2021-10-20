@@ -803,30 +803,6 @@ onEvent('recipes', (event) => {
             catalyst: {
                 item: 'industrialforegoing:laser_lens4'
             }
-        },
-        {
-            output: {
-                tag: 'forge:ores/aquamarine'
-            },
-            rarity: [
-                {
-                    whitelist: {},
-                    blacklist: netherAndEndBiomes,
-                    depth_min: 60,
-                    depth_max: 70,
-                    weight: 8
-                },
-                {
-                    whitelist: {},
-                    blacklist: netherAndEndBiomes,
-                    depth_min: 10,
-                    depth_max: 255,
-                    weight: 1
-                }
-            ],
-            catalyst: {
-                item: 'industrialforegoing:laser_lens3'
-            }
         }
     ];
     recipes.forEach((recipe) => {

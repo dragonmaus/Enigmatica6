@@ -44,11 +44,6 @@ onEvent('server.datapack.low_priority', (event) => {
                 item: 'aquaculture:neptunium_axe',
                 material: 'neptunium',
                 handle: 'neptunium'
-            },
-            {
-                item: 'aquaculture:alfsteel_axe',
-                material: 'alfsteel',
-                handle: 'alfsteel'
             }
         ]
     };

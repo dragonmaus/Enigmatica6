@@ -360,17 +360,6 @@ onEvent('recipes', (event) => {
         { output: Item.of('byg:quartz_crystal'), inputs: ['minecraft:quartz'] },
         { output: Item.of('minecraft:quartz'), inputs: ['byg:quartz_crystal'] },
         {
-            output: 'kubejs:quintuple_alfsteel_ingot',
-            inputs: [
-                '#forge:ingots/alfsteel',
-                '#forge:ingots/alfsteel',
-                '#forge:ingots/alfsteel',
-                '#forge:ingots/alfsteel',
-                '#forge:ingots/alfsteel',
-                '#forge:dusts/mana'
-            ]
-        },
-        {
             output: 'minecraft:quartz',
             inputs: ['byg:quartzite_sand', 'byg:quartzite_sand', 'byg:quartzite_sand']
         },

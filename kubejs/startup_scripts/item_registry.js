@@ -9,7 +9,6 @@ onEvent('item.registry', (event) => {
         'blacksmiths_delight',
         'scavengers_delight',
         'alchemists_delight',
-        'quintuple_alfsteel_ingot',
         'altered_recipe_indicator',
         'syrup_bottle',
         'disabled_recipe_indicator',

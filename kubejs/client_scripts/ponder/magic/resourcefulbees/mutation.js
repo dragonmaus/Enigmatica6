@@ -64,7 +64,6 @@ onEvent('ponder.registry', (event) => {
       'resourcefulbees:elven_bee_spawn_egg',
       'resourcefulbees:infused_bee_spawn_egg',
       'resourcefulbees:mana_bee_spawn_egg',
-      'resourcefulbees:sky_bee_spawn_egg',
       'resourcefulbees:starry_bee_spawn_egg',
       'resourcefulbees:tainted_bee_spawn_egg',
       'resourcefulbees:terrestrial_bee_spawn_egg',

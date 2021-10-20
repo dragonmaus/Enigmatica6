@@ -38,17 +38,6 @@ onEvent('recipes', (event) => {
         },
         {
             inputs: [
-                { tag: 'forge:ingots/pewter', count: 4 },
-                { item: 'refinedstorage:quartz_enriched_iron', count: 4 },
-                { item: 'tconstruct:seared_brick', count: 4 },
-                { item: 'thermal:machine_frame', count: 1 }
-            ],
-            pressure: 2.5,
-            results: [{ item: 'refinedstorage:machine_casing', count: 2 }],
-            id: 'refinedstorage:machine_casing'
-        },
-        {
-            inputs: [
                 { item: 'powah:blank_card', count: 1 },
                 { tag: 'mekanism:enriched/redstone', count: 1 },
                 { item: 'powah:ender_core', count: 1 }
